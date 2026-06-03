@@ -1,0 +1,10 @@
+{
+  "name": "app-promoter-ai",
+  "version": "1.0.0",
+  "description": "Programmatic screen recording and browser interactions for app launches",
+  "main": "recorder.js",
+  "type": "module",
+  "dependencies": {
+    "playwright": "^1.42.1"
+  }
+}

@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golf Swing Analysis Tool - SwingPro AI</title>
+    <link rel="stylesheet" type="text/css" href="asset_1.css">
+    <link rel="stylesheet" type="text/css" href="asset_2.css">
+    <style>
+        /* Dark theme matching SwingPro AI */
+        :root {
+            --color-bg-main: #0a0a0b;
+            --color-bg-sidebar: #0e0e0f;
+            --color-bg-card: #18181b;
+            --color-bg-header: #111112;
+            --color-brand-lime: #c1ff72;
+            --color-slate-200: #e2e8f0;
+            --color-slate-400: #94a3b8;
+            --color-slate-500: #64748b;
+            --color-white: #ffffff;
+            --color-black: #000000;
+        }
+
+        body {
+            background-color: var(--color-bg-main);
+            color: var(--color-slate-200);
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+        }
+
+        .header {
+            background-color: var(--color-bg-header);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .logo-circle {
+            width: 2rem;
+            height: 2rem;
+            background-color: var(--color-brand-lime);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 0 20px rgba(193, 255, 114, 0.2);
+        }
+
+        .logo-text {
+            font-size: 1.5rem;
+            font-weight: bold;
+            font-style: italic;
+            color: var(--color-white);
+        }
+
+        .logo-text .brand {
+            color: var(--color-brand-lime);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .hero-section {
+            text-align: center;
+            padding: 4rem 0;
+        }
+
+        .hero-title {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            color: var(--color-white);
+        }
+
+        .hero-subtitle {
+            font-size: 1.25rem;
+            color: var(--color-slate-400);
+            margin-bottom: 2rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: var(--color-brand-lime);
+            color: var(--color-black);
+            padding: 1rem 2rem;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.125rem;
+            transition: all 0.2s;
+            box-shadow: 0 4px 14px rgba(193, 255, 114, 0.3);
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(193, 255, 114, 0.4);
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 4rem 0;
+        }
+
+        .feature-card {
+            background-color: var(--color-bg-card);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 1rem;
+            padding: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature-icon {
+            width: 3rem;
+            height: 3rem;
+            background-color: rgba(193, 255, 114, 0.1);
+            border: 1px solid rgba(193, 255, 114, 0.2);
+            border-radius: 0.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+
+        .feature-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+            color: var(--color-white);
+            margin-bottom: 0.5rem;
+        }
+
+        .feature-description {
+            color: var(--color-slate-400);
+            line-height: 1.6;
+        }
+
+        .image-section {
+            margin: 4rem 0;
+            text-align: center;
+        }
+
+        .image-container {
+            max-width: 800px;
+            margin: 0 auto;
+            border-radius: 1rem;
+            overflow: hidden;
+            box-shadow: 0 20px 25px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .warning-box {
+            background-color: rgba(193, 255, 114, 0.05);
+            border: 1px solid rgba(193, 255, 114, 0.2);
+            border-radius: 0.75rem;
+            padding: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .warning-title {
+            color: var(--color-brand-lime);
+            font-weight: bold;
+            font-size: 1.125rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .warning-text {
+            color: var(--color-slate-400);
+        }
+
+        .footer {
+            background-color: var(--color-bg-sidebar);
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            padding: 2rem;
+            text-align: center;
+            margin-top: 4rem;
+        }
+
+        .footer-text {
+            color: var(--color-slate-500);
+            font-size: 0.875rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        .status-indicator {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+
+        .status-dot {
+            width: 0.5rem;
+            height: 0.5rem;
+            background-color: var(--color-brand-lime);
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+
+        .status-text {
+            color: var(--color-slate-400);
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        @media (max-width: 768px) {
+            .hero-title {
+                font-size: 2rem;
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .container {
+                padding: 1rem;
+            }
+        }
+
+        .nav-bar {
+            background-color: var(--color-bg-sidebar);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            padding: 0.5rem 2rem;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .nav-link {
+            color: var(--color-slate-400);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.875rem;
+            transition: color 0.2s;
+        }
+
+        .nav-link:hover, .nav-link.active {
+            color: var(--color-brand-lime);
+        }
+
+        .nav-link.external {
+            background-color: var(--color-brand-lime);
+            color: var(--color-black);
+            padding: 0.5rem 1rem;
+            border-radius: 0.25rem;
+            font-weight: bold;
+        }
+
+        .nav-link.external:hover {
+            background-color: rgba(193, 255, 114, 0.8);
+        }
+
+        @media (max-width: 768px) {
+            .nav-container {
+                flex-direction: column;
+                gap: 1rem;
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <div class="logo-circle">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <circle cx="12" cy="12" r="6"></circle>
+                    <circle cx="12" cy="12" r="2"></circle>
+                </svg>
+            </div>
+            <span class="logo-text">SWING<span class="brand">AI</span></span>
+        </div>
+    </header>
+
+    <script src="nav.js"></script>
+    <script src="ads.js"></script>
+
+    <div class="container">
+        <section class="hero-section">
+            <h1 class="hero-title">Professional Golf Swing Analysis</h1>
+            <p class="hero-subtitle">Powered by Google AI (Gemini) - Get detailed swing analysis and personalized training recommendations</p>
+            <a href="https://swingpro-ai-206752517500.us-west2.run.app/" class="cta-button" target="_blank">Start Analysis</a>
+        </section>
+
+        <section class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-brand-lime">
+                        <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                    </svg>
+                </div>
+                <h3 class="feature-title">AI-Powered Analysis</h3>
+                <p class="feature-description">Advanced computer vision and biomechanics analysis using Google's Gemini AI to break down every aspect of your swing.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-brand-lime">
+                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                    </svg>
+                </div>
+                <h3 class="feature-title">Detailed Feedback</h3>
+                <p class="feature-description">Receive comprehensive swing breakdown including setup, backswing, downswing, impact position, and follow-through analysis.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-brand-lime">
+                        <path d="M9 11H5a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2h-4"></path>
+                        <path d="M9 11V9a3 3 0 0 1 6 0v2"></path>
+                        <circle cx="12" cy="16" r="1"></circle>
+                    </svg>
+                </div>
+                <h3 class="feature-title">Training Drills</h3>
+                <p class="feature-description">Get personalized YouTube drill recommendations and practice plans to improve specific areas of your swing mechanics.</p>
+            </div>
+        </section>
+
+        <section class="image-section">
+            <h2 style="color: var(--color-white); font-size: 2rem; margin-bottom: 2rem;">See It In Action</h2>
+            <div class="image-container">
+                <img alt="Golf swing analysis interface screenshot" src="images/image_mainscreenshot.png">
+            </div>
+            <p style="color: var(--color-slate-400); margin-top: 1rem; font-size: 1.125rem;">
+                Upload your swing video and get detailed analysis like this sample result.
+                <a href="results.html" style="color: var(--color-brand-lime); text-decoration: none; font-weight: bold;">View Sample Analysis →</a>
+            </p>
+        </section>
+
+        <div class="warning-box">
+            <h3 class="warning-title">⚠️ Important Usage Guidelines</h3>
+            <p class="warning-text">
+                <strong>Cost Awareness:</strong> This tool uses Google AI services which incur costs. Please be mindful of usage to avoid excessive charges.
+            </p>
+            <p class="warning-text" style="margin-top: 0.5rem;">
+                <strong>Video Optimization:</strong> For best results and cost efficiency, trim your videos to focus on the swing motion before uploading.
+            </p>
+        </div>
+
+        <div class="warning-box">
+            <h3 class="warning-title">💡 Pro Tip</h3>
+            <p class="warning-text">
+                Shorter videos process faster and use fewer AI tokens. Focus on 2-3 seconds of your actual swing motion for optimal analysis.
+            </p>
+        </div>
+
+        <section style="text-align: center; margin: 4rem 0;">
+            <p style="color: var(--color-slate-400);">
+                I have logged all efforts to build this app and website as a developer.
+                <a href="dev_log.html" style="color: var(--color-brand-lime); text-decoration: underline;">Check out the build logs here</a>
+            </p>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-text">
+            SwingPro AI Labs v.2.4 • 300 FPS Capture Precision
+        </div>
+        <div class="status-indicator">
+            <div class="status-dot"></div>
+            <span class="status-text">System Ready</span>
+        </div>
+        <div style="margin-top: 1rem;">
+            <a href="https://jigsawpuzzlehelper.com/doku.php?id=2.golfswingai" style="color: var(--color-brand-lime); text-decoration: none; font-size: 0.8rem;">Developer's Frontpage</a>
+        </div>
+    </footer>
+</body>
+<script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'},{'ap':'cpsh-oh'},{'server':'p3plzcpnl508860'},{'dcenter':'p3'},{'cp_id':'10737101'},{'cp_cl':'8'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='https://img1.wsimg.com/traffic-assets/js/tccl.min.js'></script></html>

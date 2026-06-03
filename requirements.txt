@@ -1,0 +1,11 @@
+google-genai
+python-dotenv
+requests
+jinja2
+moviepy==1.0.3
+edge-tts
+pillow
+google-api-python-client
+google-auth-oauthlib
+google-auth-httplib2
+mcp

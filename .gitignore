@@ -1,0 +1,21 @@
+# Environments
+.env
+keys.txt
+
+# Google API Credentials & Tokens
+client_secrets.json
+client_secrets-private.json
+token.json
+
+# Session / Login data
+instagram_session.json
+
+# Node
+node_modules/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Local Outputs / Drafts
+output/

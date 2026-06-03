@@ -1,0 +1,52 @@
+{
+  "apps": {
+    "npc-aggregator": {
+      "name": "HEF Financial Data Engine",
+      "url": "https://npc-aggregator-app.web.app",
+      "description": "An interactive college financial aid aggregator modeling FAFSA vs. CSS Profile net cost differences on-the-fly, complete with verified government registries and acceptance statistics.",
+      "target_audience": "High school seniors, parents, college guidance counselors, and EdTech professionals",
+      "outreach_list": "contacts_counselors.csv",
+      "reddit_subreddits": ["ApplyingToCollege", "financialaid"],
+      "reddit_keywords": ["net price calculator", "npc", "fafsa", "css profile"],
+      "kb_file": "knowledge_base/kb_npc.md",
+      "few_shots_file": "knowledge_base/few_shots_npc.jsonl",
+      "skipped_posts_file": "knowledge_base/skipped_posts_npc.jsonl",
+      "video_flow": [
+        { "action": "navigate", "value": "https://npc-aggregator-app.web.app" },
+        { "action": "wait", "value": 2000 },
+        { "action": "type", "selector": "input[placeholder*='Search popular schools']", "value": "UT Austin" },
+        { "action": "wait", "value": 2000 },
+        { "action": "click", "selector": "text=The University of Texas at Austin" },
+        { "action": "wait", "value": 1000 },
+        { "action": "click", "selector": "text=Continue to Finances" },
+        { "action": "wait", "value": 2000 },
+        { "action": "type", "selector": "input.w-24", "value": "60000" },
+        { "action": "wait", "value": 1000 },
+        { "action": "click", "selector": "text=Estimate & Compare Net Price" },
+        { "action": "wait", "value": 2000 },
+        { "action": "scroll", "value": "bottom" },
+        { "action": "wait", "value": 4000 }
+      ]
+    },
+    "golf-swing-ai": {
+      "name": "SwingPro AI",
+      "url": "https://jigsawpuzzlehelper.com/golfswingai/",
+      "description": "An AI-powered mobile web coach analyzing swing planes, posture angles, and body rotations from uploaded video feeds to immediately correct slices and hooks.",
+      "target_audience": "Amateur golfers looking to fix their swing mechanics, golf instructors, and club managers",
+      "outreach_list": "contacts_golfers.csv",
+      "reddit_subreddits": ["golfswing", "golf"],
+      "reddit_keywords": ["swing", "slice", "hook", "early extension"],
+      "kb_file": "knowledge_base/kb_golf.md",
+      "few_shots_file": "knowledge_base/few_shots_golf.jsonl",
+      "skipped_posts_file": "knowledge_base/skipped_posts_golf.jsonl",
+      "video_flow": [
+        { "action": "navigate", "value": "http://localhost:5173/" },
+        { "action": "wait", "value": 3000 },
+        { "action": "upload", "selector": "input[type=\"file\"]", "value": "D:\\git_repo\\golfswingai\\images\\extracted_video.mp4" },
+        { "action": "wait", "value": 10000 },
+        { "action": "click", "selector": "text=Unlock Free" },
+        { "action": "wait", "value": 10000 }
+      ]
+    }
+  }
+}
