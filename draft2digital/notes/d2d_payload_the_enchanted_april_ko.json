@@ -1,0 +1,30 @@
+{
+  "book": "the_enchanted_april",
+  "language": "Korean",
+  "language_code": "ko",
+  "title": "마법에 걸린 4월 (Enchanted April)",
+  "subtitle": "The Enchanted April",
+  "author": "엘리자베스 폰 아르님",
+  "publisher": "TKPROF LLC",
+  "explicit_content": false,
+  "content_rating_text": "My book does NOT contain content inappropriate for minors. It is intended for a general audience.",
+  "description": "독자 여러분께 드리는 글\n\n변화와 회복, 그리고 지중해의 봄이 지닌 마법 같은 힘을 담은 엘리자베스 폰 아르님의 사랑받는 1922년 소설, <마법에 걸린 4월>의 현대어판에 오신 것을 환영합니다.\n\n이야기는 어둡고 비 내리는 런던 거리에서 시작됩니다. 서로 너무나 다른 두 여인, 윌킨스 부인과 아버스넛 부인은 신문 광고란에서 4월 한 달 동안 빌릴 수 있는 이탈리아의 오래된 중세 성에 관한 작은 광고를 발견합니다. 지루한 일상과 냉랭한 남편들에게서 벗어나 진정한 휴식을 갈망하던 두 사람은 용기를 내어 모험을 떠나기로 결심합니다. 그리고 비용을 나누기 위해 전혀 모르는 두 명의 낯선 이들을 초대합니다. 눈부시게 아름답지만 화려한 사교계 생활에 지쳐버린 젊은 귀족 여성 캐롤라인 데스터 레이디와 과거에 머물며 살아가는 엄격한 노미망인 피셔 부인이 바로 그들입니다.\n\n이후 네 사람이 겪게 되는 일은 아름답고 유쾌한 일상의 희극입니다. 등나무꽃과 백합, 그리고 푸른 바다로 둘러싸인 산 살바토레의 햇살 가득한 정원에 자리를 잡으면서, 눈부신 주변의 아름다움은 네 여인 모두에게 미묘한 마법을 부리기 시작합니다. 오래 묵은 앙금은 사라지고, 무겁던 마음은 한없이 가벼워지며, 예상치 못한 사랑이 꽃피기 시작합니다.\n\n본 현대어판에서는 현대 독자들과 학생, 그리고 언어 학습자들이 이야기를 더욱 쉽고 자연스럽게 읽을 수 있도록 20세기 초의 어휘를 현대식으로 다듬고 복잡한 문장 구조를 간결하게 정리했습니다. 그러면서도 원작이 가진 고유의 감성과 유머, 그리고 세밀한 묘사들은 고스란히 담아냈습니다. 이 책이 독자 여러분의 하루에 따사로운 햇살 한 줄기가 되어 주기를 바랍니다.",
+  "categories": [
+    "Fiction / Classics",
+    "Fiction / Romance / General"
+  ],
+  "keywords": [
+    "마법에걸린4월",
+    "Enchanted April",
+    "고전소설",
+    "힐링소설",
+    "이탈리아",
+    "로맨스"
+  ],
+  "epub_path": "C:\\git_repo\\TKprof_book\\books\\the_enchanted_april\\the_enchanted_april_ko.epub",
+  "cover_path": "C:\\git_repo\\TKprof_book\\books\\the_enchanted_april\\cover_ko.jpg",
+  "files_exist": {
+    "epub": true,
+    "cover": true
+  }
+}

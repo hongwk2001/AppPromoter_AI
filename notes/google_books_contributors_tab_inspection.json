@@ -1,0 +1,167 @@
+{
+  "url": "https://play.google.com/books/publish/a/17083112867666702510#book/GGKEY:8RSLG7CBZBC;jc=true/info/contributors",
+  "fields": [
+    {
+      "idx": 1,
+      "tag": "div",
+      "type": "",
+      "id": "",
+      "label": "",
+      "value": "",
+      "placeholder": ""
+    },
+    {
+      "idx": 2,
+      "tag": "div",
+      "type": "",
+      "id": "",
+      "label": "",
+      "value": "",
+      "placeholder": ""
+    },
+    {
+      "idx": 3,
+      "tag": "div",
+      "type": "",
+      "id": "",
+      "label": "",
+      "value": "",
+      "placeholder": ""
+    },
+    {
+      "idx": 4,
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "label": "",
+      "value": "sms_failed",
+      "placeholder": ""
+    },
+    {
+      "idx": 5,
+      "tag": "a",
+      "type": "",
+      "id": "",
+      "label": "",
+      "value": "",
+      "placeholder": ""
+    },
+    {
+      "idx": 6,
+      "tag": "a",
+      "type": "",
+      "id": "",
+      "label": "",
+      "value": "",
+      "placeholder": ""
+    },
+    {
+      "idx": 7,
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "label": "",
+      "value": "",
+      "placeholder": ""
+    },
+    {
+      "idx": 8,
+      "tag": "input",
+      "type": "text",
+      "id": "mat-input-65",
+      "label": "",
+      "value": "",
+      "placeholder": "Name"
+    },
+    {
+      "idx": 9,
+      "tag": "mat-select",
+      "type": "",
+      "id": "mat-select-45",
+      "label": "Author",
+      "value": "Author\t",
+      "placeholder": "Type"
+    },
+    {
+      "idx": 10,
+      "tag": "button",
+      "type": "button",
+      "id": "",
+      "label": "format_bold format_italic format_underlined format_clear",
+      "value": "format_bold",
+      "placeholder": ""
+    },
+    {
+      "idx": 11,
+      "tag": "button",
+      "type": "button",
+      "id": "",
+      "label": "format_bold format_italic format_underlined format_clear",
+      "value": "format_italic",
+      "placeholder": ""
+    },
+    {
+      "idx": 12,
+      "tag": "button",
+      "type": "button",
+      "id": "",
+      "label": "format_bold format_italic format_underlined format_clear",
+      "value": "format_underlined",
+      "placeholder": ""
+    },
+    {
+      "idx": 13,
+      "tag": "button",
+      "type": "button",
+      "id": "",
+      "label": "format_bold format_italic format_underlined format_clear",
+      "value": "format_clear",
+      "placeholder": ""
+    },
+    {
+      "idx": 14,
+      "tag": "input",
+      "type": "text",
+      "id": "",
+      "label": "format_bold format_italic format_underlined format_clear",
+      "value": "",
+      "placeholder": ""
+    },
+    {
+      "idx": 15,
+      "tag": "button",
+      "type": "button",
+      "id": "",
+      "label": "",
+      "value": "close",
+      "placeholder": ""
+    },
+    {
+      "idx": 16,
+      "tag": "button",
+      "type": "button",
+      "id": "",
+      "label": "",
+      "value": "add Add a contributor",
+      "placeholder": ""
+    },
+    {
+      "idx": 17,
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "label": "Save & Continue",
+      "value": "Save & Continue",
+      "placeholder": ""
+    },
+    {
+      "idx": 18,
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "label": "Save & Continue",
+      "value": "Save",
+      "placeholder": ""
+    }
+  ]
+}

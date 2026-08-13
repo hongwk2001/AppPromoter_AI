@@ -1,0 +1,71 @@
+{
+  "book_id": "dracula_bilingual",
+  "language_code": "ko",
+  "language_name": "Korean",
+  "step1_metadata": {
+    "title": "드라큘라 (Dracula) - 한영 대역판 (Bilingual Edition)",
+    "subtitle": "브램 스토커의 고딕 공포 거작 (영한 대역 / 영어 학습 / 클래식 호러)",
+    "author": "브램 스토커",
+    "publisher": "TKPROF LLC",
+    "explicit_content": false,
+    "search_terms": [
+      "드라큘라",
+      "Dracula",
+      "브램스토커",
+      "한영대역",
+      "영한대역",
+      "영어공부",
+      "고전문학",
+      "공포소설"
+    ],
+    "bisac_categories": [
+      "Fiction / Classics",
+      "Foreign Language Study / Korean",
+      "Fiction / Horror"
+    ],
+    "cover_image_path": "C:\\git_repo\\TKprof_book\\books\\dracula\\cover_ko.jpg",
+    "cover_exists": true
+  },
+  "step2_details": {
+    "epub_path": "C:\\git_repo\\TKprof_book\\books\\dracula\\dracula_bilingual.epub",
+    "epub_exists": true,
+    "short_description": "- **Title**: Dracula\n- **Subtitle**: \n- **Author**: Bram Stoker\n- **Language**: English (`en`)\n- **Publisher**: TKPROF LLC\n- **Publication Date**: 2026\n- **Translation Passes**: 2 passes (Round-Trip: English ➔ Korean ➔ Modernized English)\n- **Categories / Genres**:\n  - Fiction > Gothic Fiction\n  - Fiction > Horror > Vampires\n  - Fiction > Classic Literature\n- **Keywords**: Dracula, Bram ",
+    "full_description_text": "# Book Metadata: Dracula\n\n- **Title**: Dracula\n- **Subtitle**: \n- **Author**: Bram Stoker\n- **Language**: English (`en`)\n- **Publisher**: TKPROF LLC\n- **Publication Date**: 2026\n- **Translation Passes**: 2 passes (Round-Trip: English ➔ Korean ➔ Modernized English)\n- **Categories / Genres**:\n  - Fiction > Gothic Fiction\n  - Fiction > Horror > Vampires\n  - Fiction > Classic Literature\n- **Keywords**: Dracula, Bram Stoker, Vampire, Transylvania, Count Dracula, Van Helsing, Gothic Literature, Horror, Classic\n\n## Description\nBram Stoker's legendary 1897 novel *Dracula* introduced the world to the quintessential vampire. Told through a series of gripping letters, diary entries, and newspaper clippings, the novel chronicles Count Dracula's relocation from Transylvania to England to spread the undead curse, and the small band of men and women led by Professor Abraham Van Helsing who pledge to destroy him. This classic is modernized for contemporary readers and ESL learners.",
+    "contributors": [
+      {
+        "name": "TKPROF LLC",
+        "role": "Translator"
+      },
+      {
+        "name": "TKPROF LLC",
+        "role": "Editor"
+      }
+    ],
+    "use_free_d2d_isbn": true
+  },
+  "step3_pricing": {
+    "digital_price_usd": "4.99",
+    "library_price_usd": "9.99",
+    "remember_store_preferences": true,
+    "promotion_price_mode": "normal",
+    "target_stores": {
+      "enable_all_supported": true,
+      "skip_unsupported_language_stores": true,
+      "custom_store_states": {
+        "Barnes & Noble": false,
+        "Kobo": true,
+        "Apple": true,
+        "Tolino": true,
+        "Vivlio": true,
+        "Smashwords": true,
+        "Gardners": false,
+        "Bookshop.org": true,
+        "Fable": true,
+        "Everand": true,
+        "OverDrive": true,
+        "cloudLibrary": true,
+        "BorrowBox": true
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Dracula: Bilingual Parallel Edition (English - Korean)",
+    "subtitle": "Bram Stoker's Gothic Masterpiece (A Line-by-Line Translation for Language Learners, Easy Reading, and Classic Horror)",
+    "author_first_name": "Bram",
+    "author_last_name": "Stoker",
+    "contributors": [
+      {
+        "role": "editor",
+        "first_name": "TKPROF",
+        "last_name": "LLC"
+      }
+    ],
+    "description": "Experience Bram Stoker's timeless masterpiece of Gothic horror like never before! This special Bilingual Parallel Edition presents the original, unbridged English text side-by-side (paragraph-by-paragraph) with a faithful, natural Korean translation.\n\nWhether you are a student of the Korean language looking for an engaging way to build vocabulary, an ESL reader wanting to enjoy classic English literature with immediate translation support, or simply a fan of Dracula who wants to experience the legend of the Count in two languages, this edition is perfectly formatted for your Kindle.\n\n*Features a clean, easy-to-read vertical interleaved format (English paragraph followed immediately by the Korean paragraph).*",
+    "keywords": [
+      "Dracula bilingual english korean",
+      "Bram Stoker classics",
+      "Gothic horror vampire novel",
+      "learn korean reading practice",
+      "parallel text dual language book",
+      "easy reading classic literature",
+      "ESL reading comprehension"
+    ],
+    "manuscript_path": "C:/git_repo/TKprof_book/books/dracula/dracula_bilingual.epub",
+    "cover_path": "C:/git_repo/TKprof_book/books/dracula/cover.jpg",
+    "price": 4.99,
+    "ai_generated": {
+      "used": true,
+      "texts_level": "Entire work, with extensive editing",
+      "texts_tools": "gemini",
+      "images_level": "One or a few AI-generated images, with minimal editing",
+      "images_tools": "nano banana",
+      "translations_level": "Entire work, with extensive editing",
+      "translations_tools": "gemini"
+    }
+  }
+]

@@ -1,0 +1,70 @@
+{
+  "book_id": "blue_castle",
+  "language_code": "ko",
+  "language_name": "Korean",
+  "step1_metadata": {
+    "title": "블루 캐슬 (The Blue Castle)",
+    "subtitle": "The Blue Castle",
+    "author": "L. M. 몽고메리",
+    "publisher": "TKPROF LLC",
+    "explicit_content": false,
+    "search_terms": [
+      "블루캐슬",
+      "TheBlueCastle",
+      "LM몽고메리",
+      "빨강머리앤",
+      "고전소설",
+      "로맨스소설",
+      "힐링소설"
+    ],
+    "bisac_categories": [
+      "Fiction / Classics",
+      "Fiction / Romance / General",
+      "Fiction / Women's Fiction"
+    ],
+    "cover_image_path": "C:\\git_repo\\TKprof_book\\books\\blue_castle\\cover_ko.jpg",
+    "cover_exists": true
+  },
+  "step2_details": {
+    "epub_path": "C:\\git_repo\\TKprof_book\\books\\blue_castle\\the_blue_castle_ko.epub",
+    "epub_exists": true,
+    "short_description": "루시 모드 몽고메리(L. M. Montgomery)의 숨겨진 대표작이자 성인 독자를 위한 클래식 로맨스 『블루 캐슬 (The Blue Castle)』 한국어 완역본.",
+    "full_description_text": "루시 모드 몽고메리(L. M. Montgomery)의 숨겨진 대표작이자 성인 독자를 위한 클래식 로맨스 『블루 캐슬 (The Blue Castle)』 한국어 완역본.\n\n답답하고 억압적인 가부장적 가문에서 29살 노처녀로 구박받던 발랜시 스털링. 어느 날 시한부 1년 선고를 받은 그녀는 집안의 족쇄를 끊어버리고 세상에서 가장 통쾌하고 아름다운 반항을 시작합니다. 잃을 것이 없어진 여자의 시원한 사이다 행보, 캐나다 머스코카 숲속 오두막에서 펼쳐지는 힐링 라이프, 그리고 미스터리한 남자 바니 스네이스와의 계약 결혼!\n\n오늘날 현대 로맨스 판타지의 원형이자, 지친 독자들에게 완벽한 힐링과 감동을 선사하는 고전 로맨스 소설입니다.",
+    "contributors": [
+      {
+        "name": "TKPROF LLC",
+        "role": "Translator"
+      },
+      {
+        "name": "TKPROF LLC",
+        "role": "Editor"
+      }
+    ],
+    "use_free_d2d_isbn": true
+  },
+  "step3_pricing": {
+    "digital_price_usd": "3.99",
+    "library_price_usd": "9.99",
+    "remember_store_preferences": true,
+    "promotion_price_mode": "normal",
+    "target_stores": {
+      "enable_all_supported": true,
+      "skip_unsupported_language_stores": true,
+      "custom_store_states": {
+        "Barnes & Noble": false,
+        "Kobo": true,
+        "Apple": true,
+        "Tolino": true,
+        "Vivlio": true,
+        "Smashwords": true,
+        "Gardners": false,
+        "Bookshop.org": true,
+        "Fable": true,
+        "Everand": true,
+        "OverDrive": true,
+        "cloudLibrary": true,
+        "BorrowBox": true
+      }
+    }
+  }
+}

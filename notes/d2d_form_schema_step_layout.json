@@ -1,0 +1,35 @@
+{
+  "url": "https://draft2digital.com/book/e/4382633/layout",
+  "title": "Draft2Digital | Ebook Layout",
+  "timestamp": "2026-08-12T21:18:08.591Z",
+  "fields": [
+    {
+      "index": 1,
+      "tag": "input",
+      "type": "hidden",
+      "id": "",
+      "name": "csrfmiddlewaretoken",
+      "placeholder": "",
+      "aria_label": "",
+      "role": "",
+      "label_text": "",
+      "value": "iKQwb2uQwE9OFHxVKu3keR1vwL33u4ftKMjBQtYopSgY80SmVWLT4lMpxOwbKXPp",
+      "is_visible": false,
+      "best_selector": "input[name=\"csrfmiddlewaretoken\"]"
+    },
+    {
+      "index": 2,
+      "tag": "button",
+      "type": "",
+      "id": "id_form_submit_button",
+      "name": "",
+      "placeholder": "",
+      "aria_label": "",
+      "role": "",
+      "label_text": "",
+      "value": "Proceed",
+      "is_visible": true,
+      "best_selector": "#id_form_submit_button"
+    }
+  ]
+}

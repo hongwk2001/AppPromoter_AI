@@ -9,6 +9,9 @@ token.json
 
 # Session / Login data
 instagram_session.json
+kdp_auth.json
+*_auth.json
+scratch/
 
 # Node
 node_modules/

@@ -1,0 +1,27 @@
+{
+  "book": "gilgamesh",
+  "language": "Korean",
+  "language_code": "ko",
+  "title": "길가메시 서사시",
+  "subtitle": "The Epic of Gilgamesh",
+  "author": "고대 메소포타미아 서사시",
+  "publisher": "TKPROF LLC",
+  "description": "# 독자에게 보내는 편지\n\n《길가메시 서사시》는 세계에서 가장 오래된 문학 작품 중 하나입니다. 4천여 년 전 고대 메소포타미아(오늘날의 이라크)에서 진흙 점토판에 기록된 이 서사시는 우루크 도시의 위대하고 오만한 왕 길가메시의 이야기를 다룹니다.\n\n역사와 신화가 어우러진 이 서사시는 잔혹한 폭군이었던 길가메시가 지혜로운 통치자로 변화해 가는 과정을 추적합니다. 진정한 우정의 결속, 죽음에 대한 두려움, 그리고 영생을 향한 탐구를 담아낸 이 이야기는 인간 존재의 본질을 깊이 있게 조명합니다. 야생의 동반자 엔키두와 함께 괴물과 싸우고, 신들을 마주하며, 대홍수에서 살아남는 모험을 통해 길가메시는 마침내 참된 인간의 의미와 영원한 유산이 무엇인지를 깨닫게 됩니다.\n\n이 현대어 번역판은 고대 텍스트의 깊은 주제와 장대한 모험을 그대로 살리면서도 현대 독자들이 쉽고 흥미롭게 읽을 수 있도록 세심하게 다듬어졌습니다.",
+  "categories": [
+    "Fiction / Classics",
+    "Poetry / Ancient & Classical"
+  ],
+  "keywords": [
+    "길가메시",
+    "메소포타미아",
+    "고대서사시",
+    "세계문학",
+    "신화"
+  ],
+  "epub_path": "C:\\git_repo\\TKprof_book\\books\\gilgamesh\\gilgamesh_ko.epub",
+  "cover_path": "C:\\git_repo\\TKprof_book\\books\\gilgamesh\\cover_ko.jpg",
+  "files_exist": {
+    "epub": true,
+    "cover": true
+  }
+}

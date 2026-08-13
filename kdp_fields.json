@@ -1,0 +1,3239 @@
+{
+  "Details": [
+    {
+      "tagName": "select",
+      "type": "select-one",
+      "id": "data-language-native",
+      "name": "data[language]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "ariaLabel": "language-dropdown-editable-text",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "data-title",
+      "name": "data[title]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "data-title-pronunciation",
+      "name": "data[title_pronunciation]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "data-title-romanized",
+      "name": "data[title_romanized]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "data-subtitle",
+      "name": "data[subtitle]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "data-subtitle-pronunciation",
+      "name": "data[subtitle_pronunciation]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "data-subtitle-romanized",
+      "name": "data[subtitle_romanized]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "data-publisher-label",
+      "name": "data[publisher_label]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "data-publisher-label-pronunciation",
+      "name": "data[publisher_label_pronunciation]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "data-publisher-label-romanized",
+      "name": "data[publisher_label_romanized]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "data-edition-number",
+      "name": "data[edition_number]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "data-print-book-primary-author-last-name-jp",
+      "name": "data[primary_author][last_name]",
+      "placeholder": "Full name",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "data-primary-author-first-name",
+      "name": "data[primary_author][first_name]",
+      "placeholder": "First name",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "data-primary-author-last-name",
+      "name": "data[primary_author][last_name]",
+      "placeholder": "Last name",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "data-primary-author-pronunciation",
+      "name": "data[primary_author][pronunciation]",
+      "placeholder": "Pronunciation",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "data-primary-author-name-romanized",
+      "name": "data[primary_author][name_romanized]",
+      "placeholder": "Romanized Name",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "select",
+      "type": "select-one",
+      "id": "default[data-contributors-role]-native",
+      "name": "default[data.contributors.role]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "default[data-contributors-first-name]",
+      "name": "default[data.contributors.first_name]",
+      "placeholder": "First name",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "default[data-contributors-last-name]",
+      "name": "default[data.contributors.last_name]",
+      "placeholder": "Last name",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "default[data-contributors-last-name-jp]",
+      "name": "default[data.contributors.last_name]",
+      "placeholder": "Full name",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "default[data-contributors-pronunciation]",
+      "name": "default[data.contributors.pronunciation]",
+      "placeholder": "Pronunciation",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "default[data-contributors-name-romanized]",
+      "name": "default[data.contributors.name_romanized]",
+      "placeholder": "Romanized Name",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "select",
+      "type": "select-one",
+      "id": "data-contributors-0-role-native",
+      "name": "data[contributors][0][role]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "data-contributors-0-first-name",
+      "name": "data[contributors][0][first_name]",
+      "placeholder": "First name",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "data-contributors-0-last-name",
+      "name": "data[contributors][0][last_name]",
+      "placeholder": "Last name",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "data-contributors-0-last-name-jp",
+      "name": "data[contributors][0][last_name]",
+      "placeholder": "Full name",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "data-contributors-0-pronunciation",
+      "name": "data[contributors][0][pronunciation]",
+      "placeholder": "Pronunciation",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "data-contributors-0-name-romanized",
+      "name": "data[contributors][0][name_romanized]",
+      "placeholder": "Romanized Name",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "radio",
+      "id": "non-public-domain",
+      "name": "data-is-public-domain",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "I own the copyright and I hold the necessary publishing rights. What are publishing rights?"
+    },
+    {
+      "tagName": "input",
+      "type": "radio",
+      "id": "public-domain",
+      "name": "data-is-public-domain",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "This is a public domain work. What is a public domain work?"
+    },
+    {
+      "tagName": "input",
+      "type": "radio",
+      "id": "",
+      "name": "data[is_adult_content]-radio",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Yes"
+    },
+    {
+      "tagName": "input",
+      "type": "radio",
+      "id": "",
+      "name": "data[is_adult_content]-radio",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "No"
+    },
+    {
+      "tagName": "select",
+      "type": "select-one",
+      "id": "data-reading-interest-age-start-input-native",
+      "name": "data[reading_interest_age][min]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "select",
+      "type": "select-one",
+      "id": "data-reading-interest-age-end-input-native",
+      "name": "data[reading_interest_age][max]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "select",
+      "type": "select-one",
+      "id": "data-reading-interest-age-start-input-native",
+      "name": "data[reading_interest_age][min]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "select",
+      "type": "select-one",
+      "id": "data-reading-interest-age-end-input-native",
+      "name": "data[reading_interest_age][max]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "select",
+      "type": "select-one",
+      "id": "",
+      "name": "data[digital][home_marketplace]",
+      "placeholder": "",
+      "ariaLabel": "primary-marketplace-selection",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "data-keywords-0",
+      "name": "data[keywords][0]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "data-keywords-1",
+      "name": "data[keywords][1]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "data-keywords-2",
+      "name": "data[keywords][2]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "data-keywords-3",
+      "name": "data[keywords][3]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "data-keywords-4",
+      "name": "data[keywords][4]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "data-keywords-5",
+      "name": "data[keywords][5]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "data-keywords-6",
+      "name": "data[keywords][6]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "data-preorder-release-date-input",
+      "name": "",
+      "placeholder": "Release date (GMT)",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    }
+  ],
+  "Content": [
+    {
+      "tagName": "input",
+      "type": "radio",
+      "id": "",
+      "name": "data[is_assetless_preorder_choice]-radio",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Yes. I have a file I would like to upload at this time."
+    },
+    {
+      "tagName": "input",
+      "type": "radio",
+      "id": "",
+      "name": "data[is_assetless_preorder_choice]-radio",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "No. I’ll upload the file I want customers to receive later, before the submission deadline below"
+    },
+    {
+      "tagName": "input",
+      "type": "file",
+      "id": "data-assets-interior-file-upload-AjaxInput",
+      "name": "",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "radio",
+      "id": "",
+      "name": "data[is_drm]-radio",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Yes, apply Digital Rights Management"
+    },
+    {
+      "tagName": "input",
+      "type": "radio",
+      "id": "",
+      "name": "data[is_drm]-radio",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "No, do not apply Digital Rights Management and allow customers who buy this book to download it as a PDF or EPUB file"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-non-drm-download-consent",
+      "name": "data[non_drm_download_consent]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "I understand that by not applying DRM, customers who buy and have already bought this book will be able to download it as a PDF or EPUB file. My DRM selection applies to all previous and future purchases of this book."
+    },
+    {
+      "tagName": "input",
+      "type": "file",
+      "id": "data-assets-cover-file-upload-AjaxInput",
+      "name": "",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "file",
+      "id": "data-assets-cover-jp-file-upload-AjaxInput",
+      "name": "",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "select",
+      "type": "select-one",
+      "id": "generative-ai-questionnaire-text",
+      "name": "react-aui-0",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "select",
+      "type": "select-one",
+      "id": "generative-ai-questionnaire-images",
+      "name": "react-aui-1",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "select",
+      "type": "select-one",
+      "id": "generative-ai-questionnaire-translations",
+      "name": "react-aui-2",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "data-digital-isbn",
+      "name": "data[digital_isbn]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "data-publisher",
+      "name": "data[publisher]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "data-publisher-romanized",
+      "name": "data[publisher_romanized]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "data-reference-id",
+      "name": "data[reference_id]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "radio",
+      "id": "",
+      "name": "data[accessibility][image_reading]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "I don't know if my informative images include alternative text and/or extended description."
+    },
+    {
+      "tagName": "input",
+      "type": "radio",
+      "id": "",
+      "name": "data[accessibility][image_reading]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "None of the informative images include alternative text and/or extended description."
+    },
+    {
+      "tagName": "input",
+      "type": "radio",
+      "id": "",
+      "name": "data[accessibility][image_reading]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Some informative images include alternative text and/or extended description."
+    },
+    {
+      "tagName": "input",
+      "type": "radio",
+      "id": "",
+      "name": "data[accessibility][image_reading]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "All informative images include alternative text and/or extended description."
+    },
+    {
+      "tagName": "input",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    }
+  ],
+  "Pricing": [
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-is-select",
+      "name": "data[is_select]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Enroll my book in KDP Select"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-US",
+      "name": "data[digital][territory_rights][US]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "United States"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-GB",
+      "name": "data[digital][territory_rights][GB]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "United Kingdom"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-GG",
+      "name": "data[digital][territory_rights][GG]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Guernsey"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-IM",
+      "name": "data[digital][territory_rights][IM]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Isle Of Man"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-JE",
+      "name": "data[digital][territory_rights][JE]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Jersey"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-CA",
+      "name": "data[digital][territory_rights][CA]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Canada"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-IN",
+      "name": "data[digital][territory_rights][IN]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "India"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-AU",
+      "name": "data[digital][territory_rights][AU]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Australia"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-AX",
+      "name": "data[digital][territory_rights][AX]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Åland Islands"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-AF",
+      "name": "data[digital][territory_rights][AF]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Afghanistan"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-AL",
+      "name": "data[digital][territory_rights][AL]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Albania"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-DZ",
+      "name": "data[digital][territory_rights][DZ]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Algeria"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-AS",
+      "name": "data[digital][territory_rights][AS]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "American Samoa"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-AD",
+      "name": "data[digital][territory_rights][AD]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Andorra"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-AO",
+      "name": "data[digital][territory_rights][AO]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Angola"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-AI",
+      "name": "data[digital][territory_rights][AI]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Anguilla"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-AQ",
+      "name": "data[digital][territory_rights][AQ]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Antarctica"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-AG",
+      "name": "data[digital][territory_rights][AG]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Antigua And Barbuda"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-AR",
+      "name": "data[digital][territory_rights][AR]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Argentina"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-AM",
+      "name": "data[digital][territory_rights][AM]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Armenia"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-AW",
+      "name": "data[digital][territory_rights][AW]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Aruba"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-AT",
+      "name": "data[digital][territory_rights][AT]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Austria"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-AZ",
+      "name": "data[digital][territory_rights][AZ]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Azerbaijan"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-BS",
+      "name": "data[digital][territory_rights][BS]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Bahamas"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-BH",
+      "name": "data[digital][territory_rights][BH]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Bahrain"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-BD",
+      "name": "data[digital][territory_rights][BD]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Bangladesh"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-BB",
+      "name": "data[digital][territory_rights][BB]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Barbados"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-BY",
+      "name": "data[digital][territory_rights][BY]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Belarus"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-BE",
+      "name": "data[digital][territory_rights][BE]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Belgium"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-BZ",
+      "name": "data[digital][territory_rights][BZ]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Belize"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-BJ",
+      "name": "data[digital][territory_rights][BJ]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Benin"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-BM",
+      "name": "data[digital][territory_rights][BM]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Bermuda"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-BT",
+      "name": "data[digital][territory_rights][BT]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Bhutan"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-BO",
+      "name": "data[digital][territory_rights][BO]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Bolivia"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-BA",
+      "name": "data[digital][territory_rights][BA]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Bosnia And Herzegovina"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-BW",
+      "name": "data[digital][territory_rights][BW]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Botswana"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-BV",
+      "name": "data[digital][territory_rights][BV]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Bouvet Island"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-BR",
+      "name": "data[digital][territory_rights][BR]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Brazil"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-IO",
+      "name": "data[digital][territory_rights][IO]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "British Indian Ocean Territory"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-BN",
+      "name": "data[digital][territory_rights][BN]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Brunei Darussalam"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-BG",
+      "name": "data[digital][territory_rights][BG]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Bulgaria"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-BF",
+      "name": "data[digital][territory_rights][BF]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Burkina Faso"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-BI",
+      "name": "data[digital][territory_rights][BI]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Burundi"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-CI",
+      "name": "data[digital][territory_rights][CI]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Côte D'Ivoire"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-KH",
+      "name": "data[digital][territory_rights][KH]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Cambodia"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-CM",
+      "name": "data[digital][territory_rights][CM]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Cameroon"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-CV",
+      "name": "data[digital][territory_rights][CV]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Cape Verde"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-KY",
+      "name": "data[digital][territory_rights][KY]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Cayman Islands"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-CF",
+      "name": "data[digital][territory_rights][CF]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Central African Republic"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-TD",
+      "name": "data[digital][territory_rights][TD]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Chad"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-CL",
+      "name": "data[digital][territory_rights][CL]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Chile"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-CN",
+      "name": "data[digital][territory_rights][CN]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "China"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-CX",
+      "name": "data[digital][territory_rights][CX]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Christmas Island"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-CC",
+      "name": "data[digital][territory_rights][CC]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Cocos (Keeling) Islands"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-CO",
+      "name": "data[digital][territory_rights][CO]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Colombia"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-KM",
+      "name": "data[digital][territory_rights][KM]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Comoros"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-CG",
+      "name": "data[digital][territory_rights][CG]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Congo"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-CD",
+      "name": "data[digital][territory_rights][CD]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Congo, The Democratic Republic Of The"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-CK",
+      "name": "data[digital][territory_rights][CK]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Cook Islands"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-CR",
+      "name": "data[digital][territory_rights][CR]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Costa Rica"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-HR",
+      "name": "data[digital][territory_rights][HR]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Croatia"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-CU",
+      "name": "data[digital][territory_rights][CU]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Cuba"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-CY",
+      "name": "data[digital][territory_rights][CY]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Cyprus"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-CZ",
+      "name": "data[digital][territory_rights][CZ]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Czech Republic"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-DK",
+      "name": "data[digital][territory_rights][DK]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Denmark"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-DJ",
+      "name": "data[digital][territory_rights][DJ]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Djibouti"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-DM",
+      "name": "data[digital][territory_rights][DM]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Dominica"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-DO",
+      "name": "data[digital][territory_rights][DO]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Dominican Republic"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-EC",
+      "name": "data[digital][territory_rights][EC]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Ecuador"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-EG",
+      "name": "data[digital][territory_rights][EG]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Egypt"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-SV",
+      "name": "data[digital][territory_rights][SV]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "El Salvador"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-GQ",
+      "name": "data[digital][territory_rights][GQ]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Equatorial Guinea"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-ER",
+      "name": "data[digital][territory_rights][ER]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Eritrea"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-EE",
+      "name": "data[digital][territory_rights][EE]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Estonia"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-ET",
+      "name": "data[digital][territory_rights][ET]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Ethiopia"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-FK",
+      "name": "data[digital][territory_rights][FK]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Falkland Islands (Malvinas)"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-FO",
+      "name": "data[digital][territory_rights][FO]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Faroe Islands"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-FJ",
+      "name": "data[digital][territory_rights][FJ]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Fiji"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-FI",
+      "name": "data[digital][territory_rights][FI]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Finland"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-FR",
+      "name": "data[digital][territory_rights][FR]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "France"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-GF",
+      "name": "data[digital][territory_rights][GF]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "French Guiana"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-PF",
+      "name": "data[digital][territory_rights][PF]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "French Polynesia"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-TF",
+      "name": "data[digital][territory_rights][TF]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "French Southern Territories"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-GA",
+      "name": "data[digital][territory_rights][GA]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Gabon"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-GM",
+      "name": "data[digital][territory_rights][GM]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Gambia"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-GE",
+      "name": "data[digital][territory_rights][GE]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Georgia"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-DE",
+      "name": "data[digital][territory_rights][DE]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Germany"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-GH",
+      "name": "data[digital][territory_rights][GH]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Ghana"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-GI",
+      "name": "data[digital][territory_rights][GI]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Gibraltar"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-GR",
+      "name": "data[digital][territory_rights][GR]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Greece"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-GL",
+      "name": "data[digital][territory_rights][GL]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Greenland"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-GD",
+      "name": "data[digital][territory_rights][GD]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Grenada"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-GP",
+      "name": "data[digital][territory_rights][GP]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Guadeloupe"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-GU",
+      "name": "data[digital][territory_rights][GU]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Guam"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-GT",
+      "name": "data[digital][territory_rights][GT]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Guatemala"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-GN",
+      "name": "data[digital][territory_rights][GN]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Guinea"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-GW",
+      "name": "data[digital][territory_rights][GW]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Guinea-Bissau"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-GY",
+      "name": "data[digital][territory_rights][GY]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Guyana"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-HT",
+      "name": "data[digital][territory_rights][HT]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Haiti"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-HM",
+      "name": "data[digital][territory_rights][HM]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Heard Island And Mcdonald Islands"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-VA",
+      "name": "data[digital][territory_rights][VA]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Holy See (Vatican City State)"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-HN",
+      "name": "data[digital][territory_rights][HN]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Honduras"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-HK",
+      "name": "data[digital][territory_rights][HK]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Hong Kong"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-HU",
+      "name": "data[digital][territory_rights][HU]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Hungary"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-IS",
+      "name": "data[digital][territory_rights][IS]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Iceland"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-ID",
+      "name": "data[digital][territory_rights][ID]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Indonesia"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-IR",
+      "name": "data[digital][territory_rights][IR]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Iran, Islamic Republic Of"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-IQ",
+      "name": "data[digital][territory_rights][IQ]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Iraq"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-IE",
+      "name": "data[digital][territory_rights][IE]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Ireland"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-IL",
+      "name": "data[digital][territory_rights][IL]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Israel"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-IT",
+      "name": "data[digital][territory_rights][IT]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Italy"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-JM",
+      "name": "data[digital][territory_rights][JM]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Jamaica"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-JP",
+      "name": "data[digital][territory_rights][JP]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Japan"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-JO",
+      "name": "data[digital][territory_rights][JO]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Jordan"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-KZ",
+      "name": "data[digital][territory_rights][KZ]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Kazakhstan"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-KE",
+      "name": "data[digital][territory_rights][KE]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Kenya"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-KI",
+      "name": "data[digital][territory_rights][KI]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Kiribati"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-KP",
+      "name": "data[digital][territory_rights][KP]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Korea, Democratic People'S Republic Of"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-KR",
+      "name": "data[digital][territory_rights][KR]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Korea, Republic Of"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-KW",
+      "name": "data[digital][territory_rights][KW]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Kuwait"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-KG",
+      "name": "data[digital][territory_rights][KG]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Kyrgyzstan"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-LA",
+      "name": "data[digital][territory_rights][LA]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Lao People'S Democratic Republic"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-LV",
+      "name": "data[digital][territory_rights][LV]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Latvia"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-LB",
+      "name": "data[digital][territory_rights][LB]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Lebanon"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-LS",
+      "name": "data[digital][territory_rights][LS]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Lesotho"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-LR",
+      "name": "data[digital][territory_rights][LR]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Liberia"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-LY",
+      "name": "data[digital][territory_rights][LY]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Libyan Arab Jamahiriya"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-LI",
+      "name": "data[digital][territory_rights][LI]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Liechtenstein"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-LT",
+      "name": "data[digital][territory_rights][LT]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Lithuania"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-LU",
+      "name": "data[digital][territory_rights][LU]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Luxembourg"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-MO",
+      "name": "data[digital][territory_rights][MO]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Macao"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-MG",
+      "name": "data[digital][territory_rights][MG]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Madagascar"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-MW",
+      "name": "data[digital][territory_rights][MW]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Malawi"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-MY",
+      "name": "data[digital][territory_rights][MY]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Malaysia"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-MV",
+      "name": "data[digital][territory_rights][MV]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Maldives"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-ML",
+      "name": "data[digital][territory_rights][ML]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Mali"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-MT",
+      "name": "data[digital][territory_rights][MT]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Malta"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-MH",
+      "name": "data[digital][territory_rights][MH]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Marshall Islands"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-MQ",
+      "name": "data[digital][territory_rights][MQ]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Martinique"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-MR",
+      "name": "data[digital][territory_rights][MR]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Mauritania"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-MU",
+      "name": "data[digital][territory_rights][MU]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Mauritius"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-YT",
+      "name": "data[digital][territory_rights][YT]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Mayotte"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-MX",
+      "name": "data[digital][territory_rights][MX]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Mexico"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-FM",
+      "name": "data[digital][territory_rights][FM]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Micronesia, Federated States Of"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-MD",
+      "name": "data[digital][territory_rights][MD]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Moldova, Republic Of"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-MC",
+      "name": "data[digital][territory_rights][MC]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Monaco"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-MN",
+      "name": "data[digital][territory_rights][MN]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Mongolia"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-ME",
+      "name": "data[digital][territory_rights][ME]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Montenegro"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-MS",
+      "name": "data[digital][territory_rights][MS]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Montserrat"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-MA",
+      "name": "data[digital][territory_rights][MA]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Morocco"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-MZ",
+      "name": "data[digital][territory_rights][MZ]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Mozambique"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-MM",
+      "name": "data[digital][territory_rights][MM]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Myanmar"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-NA",
+      "name": "data[digital][territory_rights][NA]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Namibia"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-NR",
+      "name": "data[digital][territory_rights][NR]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Nauru"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-NP",
+      "name": "data[digital][territory_rights][NP]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Nepal"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-NL",
+      "name": "data[digital][territory_rights][NL]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Netherlands"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-NC",
+      "name": "data[digital][territory_rights][NC]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "New Caledonia"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-NZ",
+      "name": "data[digital][territory_rights][NZ]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "New Zealand"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-NI",
+      "name": "data[digital][territory_rights][NI]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Nicaragua"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-NE",
+      "name": "data[digital][territory_rights][NE]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Niger"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-NG",
+      "name": "data[digital][territory_rights][NG]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Nigeria"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-NU",
+      "name": "data[digital][territory_rights][NU]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Niue"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-NF",
+      "name": "data[digital][territory_rights][NF]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Norfolk Island"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-MP",
+      "name": "data[digital][territory_rights][MP]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Northern Mariana Islands"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-MK",
+      "name": "data[digital][territory_rights][MK]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "North Macedonia"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-NO",
+      "name": "data[digital][territory_rights][NO]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Norway"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-OM",
+      "name": "data[digital][territory_rights][OM]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Oman"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-PK",
+      "name": "data[digital][territory_rights][PK]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Pakistan"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-PW",
+      "name": "data[digital][territory_rights][PW]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Palau"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-PS",
+      "name": "data[digital][territory_rights][PS]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Palestinian Territory, Occupied"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-PA",
+      "name": "data[digital][territory_rights][PA]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Panama"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-PG",
+      "name": "data[digital][territory_rights][PG]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Papua New Guinea"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-PY",
+      "name": "data[digital][territory_rights][PY]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Paraguay"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-PE",
+      "name": "data[digital][territory_rights][PE]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Peru"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-PH",
+      "name": "data[digital][territory_rights][PH]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Philippines"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-PN",
+      "name": "data[digital][territory_rights][PN]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Pitcairn"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-PL",
+      "name": "data[digital][territory_rights][PL]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Poland"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-PT",
+      "name": "data[digital][territory_rights][PT]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Portugal"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-PR",
+      "name": "data[digital][territory_rights][PR]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Puerto Rico"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-QA",
+      "name": "data[digital][territory_rights][QA]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Qatar"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-RE",
+      "name": "data[digital][territory_rights][RE]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Reunion"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-RO",
+      "name": "data[digital][territory_rights][RO]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Romania"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-RU",
+      "name": "data[digital][territory_rights][RU]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Russian Federation"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-RW",
+      "name": "data[digital][territory_rights][RW]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Rwanda"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-BL",
+      "name": "data[digital][territory_rights][BL]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Saint Barthélemy"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-SH",
+      "name": "data[digital][territory_rights][SH]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Saint Helena"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-KN",
+      "name": "data[digital][territory_rights][KN]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Saint Kitts And Nevis"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-LC",
+      "name": "data[digital][territory_rights][LC]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Saint Lucia"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-MF",
+      "name": "data[digital][territory_rights][MF]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Saint Martin"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-PM",
+      "name": "data[digital][territory_rights][PM]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Saint Pierre And Miquelon"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-VC",
+      "name": "data[digital][territory_rights][VC]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Saint Vincent And The Grenadines"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-WS",
+      "name": "data[digital][territory_rights][WS]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Samoa"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-SM",
+      "name": "data[digital][territory_rights][SM]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "San Marino"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-ST",
+      "name": "data[digital][territory_rights][ST]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Sao Tome And Principe"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-SA",
+      "name": "data[digital][territory_rights][SA]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Saudi Arabia"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-SN",
+      "name": "data[digital][territory_rights][SN]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Senegal"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-RS",
+      "name": "data[digital][territory_rights][RS]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Serbia"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-SC",
+      "name": "data[digital][territory_rights][SC]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Seychelles"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-SL",
+      "name": "data[digital][territory_rights][SL]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Sierra Leone"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-SG",
+      "name": "data[digital][territory_rights][SG]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Singapore"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-SK",
+      "name": "data[digital][territory_rights][SK]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Slovakia"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-SI",
+      "name": "data[digital][territory_rights][SI]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Slovenia"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-SB",
+      "name": "data[digital][territory_rights][SB]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Solomon Islands"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-SO",
+      "name": "data[digital][territory_rights][SO]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Somalia"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-ZA",
+      "name": "data[digital][territory_rights][ZA]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "South Africa"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-GS",
+      "name": "data[digital][territory_rights][GS]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "South Georgia And The South Sandwich Islands"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-ES",
+      "name": "data[digital][territory_rights][ES]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Spain"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-LK",
+      "name": "data[digital][territory_rights][LK]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Sri Lanka"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-SD",
+      "name": "data[digital][territory_rights][SD]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Sudan"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-SR",
+      "name": "data[digital][territory_rights][SR]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Suriname"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-SJ",
+      "name": "data[digital][territory_rights][SJ]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Svalbard And Jan Mayen"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-SZ",
+      "name": "data[digital][territory_rights][SZ]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Swaziland"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-SE",
+      "name": "data[digital][territory_rights][SE]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Sweden"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-CH",
+      "name": "data[digital][territory_rights][CH]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Switzerland"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-SY",
+      "name": "data[digital][territory_rights][SY]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Syrian Arab Republic"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-TW",
+      "name": "data[digital][territory_rights][TW]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Taiwan"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-TJ",
+      "name": "data[digital][territory_rights][TJ]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Tajikistan"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-TZ",
+      "name": "data[digital][territory_rights][TZ]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Tanzania, United Republic Of"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-TH",
+      "name": "data[digital][territory_rights][TH]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Thailand"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-TL",
+      "name": "data[digital][territory_rights][TL]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Timor-Leste"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-TG",
+      "name": "data[digital][territory_rights][TG]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Togo"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-TK",
+      "name": "data[digital][territory_rights][TK]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Tokelau"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-TO",
+      "name": "data[digital][territory_rights][TO]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Tonga"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-TT",
+      "name": "data[digital][territory_rights][TT]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Trinidad And Tobago"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-TN",
+      "name": "data[digital][territory_rights][TN]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Tunisia"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-TR",
+      "name": "data[digital][territory_rights][TR]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Turkey"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-TM",
+      "name": "data[digital][territory_rights][TM]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Turkmenistan"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-TC",
+      "name": "data[digital][territory_rights][TC]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Turks And Caicos Islands"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-TV",
+      "name": "data[digital][territory_rights][TV]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Tuvalu"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-UG",
+      "name": "data[digital][territory_rights][UG]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Uganda"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-UA",
+      "name": "data[digital][territory_rights][UA]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Ukraine"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-AE",
+      "name": "data[digital][territory_rights][AE]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "United Arab Emirates"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-UM",
+      "name": "data[digital][territory_rights][UM]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "United States Minor Outlying Islands"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-UY",
+      "name": "data[digital][territory_rights][UY]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Uruguay"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-UZ",
+      "name": "data[digital][territory_rights][UZ]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Uzbekistan"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-VU",
+      "name": "data[digital][territory_rights][VU]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Vanuatu"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-VE",
+      "name": "data[digital][territory_rights][VE]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Venezuela"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-VN",
+      "name": "data[digital][territory_rights][VN]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Vietnam"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-VG",
+      "name": "data[digital][territory_rights][VG]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Virgin Islands, British"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-VI",
+      "name": "data[digital][territory_rights][VI]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Virgin Islands, U.S."
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-WF",
+      "name": "data[digital][territory_rights][WF]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Wallis And Futuna"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-EH",
+      "name": "data[digital][territory_rights][EH]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Western Sahara"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-YE",
+      "name": "data[digital][territory_rights][YE]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Yemen"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-ZM",
+      "name": "data[digital][territory_rights][ZM]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Zambia"
+    },
+    {
+      "tagName": "input",
+      "type": "checkbox",
+      "id": "data-digital-territory-rights-ZW",
+      "name": "data[digital][territory_rights][ZW]-check",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "Zimbabwe"
+    },
+    {
+      "tagName": "select",
+      "type": "select-one",
+      "id": "",
+      "name": "data[digital][home_marketplace]",
+      "placeholder": "",
+      "ariaLabel": "primary-marketplace-selection",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "radio",
+      "id": "",
+      "name": "data[digital][royalty_rate]-radio",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "35%"
+    },
+    {
+      "tagName": "input",
+      "type": "radio",
+      "id": "",
+      "name": "data[digital][royalty_rate]-radio",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": "70%"
+    },
+    {
+      "tagName": "select",
+      "type": "select-one",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "",
+      "name": "data[digital][channels][amazon][US][price_vat_inclusive]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "",
+      "name": "data[digital][channels][amazon][IN][price_vat_inclusive]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "",
+      "name": "data[digital][channels][amazon][UK][price_vat_inclusive]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "",
+      "name": "data[digital][channels][amazon][DE][price_vat_inclusive]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "",
+      "name": "data[digital][channels][amazon][FR][price_vat_inclusive]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "",
+      "name": "data[digital][channels][amazon][ES][price_vat_inclusive]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "",
+      "name": "data[digital][channels][amazon][IT][price_vat_inclusive]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "",
+      "name": "data[digital][channels][amazon][NL][price_vat_inclusive]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "",
+      "name": "data[digital][channels][amazon][JP][price_vat_inclusive]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "",
+      "name": "data[digital][channels][amazon][BR][price_vat_inclusive]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "",
+      "name": "data[digital][channels][amazon][CA][price_vat_inclusive]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "",
+      "name": "data[digital][channels][amazon][MX][price_vat_inclusive]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "text",
+      "id": "",
+      "name": "data[digital][channels][amazon][AU][price_vat_inclusive]",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    },
+    {
+      "tagName": "input",
+      "type": "submit",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "ariaLabel": "",
+      "labelText": ""
+    }
+  ]
+}

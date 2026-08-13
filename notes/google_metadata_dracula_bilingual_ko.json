@@ -1,0 +1,61 @@
+{
+  "book_id": "dracula_bilingual",
+  "language_code": "ko",
+  "language_name": "Korean",
+  "tab1_about_the_book": {
+    "title": "드라큘라 (Dracula) - 한영 대역판 (Bilingual Edition)",
+    "subtitle": "브램 스토커의 고딕 공포 거작 (영한 대역 / 영어 학습 / 클래식 호러)",
+    "book_identifier": "GGKEY:QQ0JHBWHXFK",
+    "language": "Korean",
+    "publisher": "TKPROF LLC",
+    "format": "Ebook",
+    "page_count": "650",
+    "release_date": "2026-08-12",
+    "publication_date": "2026-08-12",
+    "minimum_age": "",
+    "maximum_age": "",
+    "mature_audience": false,
+    "description_text": "브램 스토커(Bram Stoker)의 1897년 고딕 공포 무삭제 클래식 명작 <드라큘라>(Dracula)의 특별 한영 대역판(Bilingual Parallel Edition)입니다!\n\n본 대역판은 영문 원문 단락과 현대 한국어 완역 단락을 1:1 대조 배치(Line-by-Line Interleaved Format)하여, 영어 학습자, ESL 독자, 그리고 고전 공포 문학 팬들이 원문과 번역문을 동시에 직관적으로 비교하며 읽을 수 있도록 최적화 제작되었습니다.\n\n트랜실바니아의 음산한 고성에서 시작되는 백작의 비밀과 영국을 덮치는 불사의 구원 소동! 밴 헬싱 교수와 드라큘라 백작의 숙명적인 대결을 한영 대역판으로 감상해보세요!"
+  },
+  "tab2_genres": {
+    "bisac_categories": [
+      "FICTION / Classics",
+      "FOREIGN LANGUAGE STUDY / Korean",
+      "FICTION / Horror"
+    ]
+  },
+  "tab3_contributors": [
+    {
+      "name": "브램 스토커",
+      "role": "Author",
+      "bio": "브램 스토커(Bram Stoker, 1847~1912)는 세계 소설사에서 뱀파이어 문학의 최고 금자탑으로 평가받는 고딕 공포 명작 《드라큘라》(Dracula, 1897)를 집필한 아일랜드 출신의 대표적인 소설가입니다."
+    },
+    {
+      "name": "TKPROF LLC",
+      "role": "Translator",
+      "bio": "TKPROF LLC는 고전 문학의 현대화 및 한영 대역/이중언어(Bilingual) eBook 퍼블리싱 전문 팀입니다. 본 한영 대역 개정판은 브램 스토커(Bram Stoker)의 1897년 무삭제 원문과 현대 한국어 번역을 단락 대 단락(Line-by-Line Parallel)으로 정밀 배치하여, 영어 학습자, ESL 독자, 고전 문학 팬들이 원문과 번역문을 직관적으로 대조하며 감상할 수 있도록 최적화 제작되었습니다."
+    }
+  ],
+  "tab4_series": {
+    "series_title": "",
+    "volume_number": ""
+  },
+  "tab5_settings": {
+    "enable_drm": true,
+    "preview_percentage": "20"
+  },
+  "files": {
+    "epub_path": "C:\\git_repo\\TKprof_book\\books\\dracula\\dracula_bilingual.epub",
+    "epub_exists": true,
+    "cover_path": "C:\\git_repo\\TKprof_book\\books\\dracula\\cover_ko.jpg",
+    "cover_exists": true
+  },
+  "pricing": {
+    "price_usd": "4.99",
+    "currency": "USD",
+    "world_rights": true,
+    "territories": [
+      "WORLD"
+    ]
+  }
+}

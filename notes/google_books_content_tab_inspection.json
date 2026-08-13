@@ -1,0 +1,14 @@
+{
+  "url": "https://play.google.com/books/publish/a/17083112867666702510#book/GGKEY:8RSLG7CBZBC;jc=true/content",
+  "upload_controls": [
+    {
+      "idx": 8,
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "class": "mdc-button mat-mdc-button-base mdc-button--outlined mat-mdc-outlined-button mat-primary",
+      "accept": "",
+      "text": "upload Upload a file"
+    }
+  ]
+}

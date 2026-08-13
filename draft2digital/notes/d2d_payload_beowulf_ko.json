@@ -1,0 +1,31 @@
+{
+  "book": "beowulf",
+  "language": "Korean",
+  "language_code": "ko",
+  "title": "베오울프: 스펙터클 현대 한국어판 (Beowulf)",
+  "subtitle": "Beowulf: Modern Korean Edition",
+  "author": "작자 미상",
+  "publisher": "TKPROF LLC",
+  "explicit_content": false,
+  "content_rating_text": "My book does NOT contain content inappropriate for minors. It is intended for a general audience.",
+  "description": "★ 영문학 최고의 고전 서사시, 압도적 몰입감의 현대 웹소설 스타일로 재탄생! ★\n\n괴물 그렌델의 피비린내 나는 습격, 핏빛 늪속 수중 굴에서의 사투, 그리고 화염을 뿜어내는 마지막 거룡과의 멸망전!\n800년 역사를 가진 인류 위대한 고전 《베오울프》가 현대 판타지 웹소설의 스펙터클한 문법과 속도감 넘치는 현대 한국어로 새롭게 찾아왔습니다.\n\n■ 작품 특징\n- 속도감 넘치는 웹소설 스타일: 지루하고 딱딱한 고어 직역을 벗어나, 액션과 긴장감이 살아 숨쉬는 현대적 문체 적용.\n- 웅장한 전설의 완성: 헤오로트 대연회장의 비극부터 영웅의 마지막 용 사냥까지 숨막히는 서사를 한 권에 담았습니다.\n- 고품질 일러스트 탑재: 괴물 그렌델, 물마녀, 거룡과의 전투 장면을 담은 고해상도 일러스트레이션 수록.\n\n■ 줄거리\n6세기 스칸디나비아, 덴마크 왕국의 대연회장 헤오로트는 매일 밤 괴물 그렌델의 잔혹한 학살로 피로 물든다.\n절망에 빠진 왕국을 구하기 위해 바다를 건너온 게아트족의 영웅 베오울프.\n맨손으로 괴물의 팔을 뽑아버린 첫 승리 뒤에는 더 끔찍한 그렌델의 어미와 사나운 화룡과의 사투가 그를 기다리고 있는데...\n\n판타지 로판, 무협, 웹소설을 즐기는 현대 독자라면 반드시 읽어야 할 고전 영웅 서사의 원점!",
+  "categories": [
+    "Fiction / Classics",
+    "Fiction / Action & Adventure",
+    "Fiction / Fantasy / Action & Adventure"
+  ],
+  "keywords": [
+    "베오울프",
+    "Beowulf",
+    "고전소설",
+    "신화",
+    "액션판타지",
+    "영웅서사시"
+  ],
+  "epub_path": "C:\\git_repo\\TKprof_book\\books\\beowulf\\beowulf_ko_v2.epub",
+  "cover_path": "C:\\git_repo\\TKprof_book\\books\\beowulf\\cover_ko.jpg",
+  "files_exist": {
+    "epub": true,
+    "cover": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "book_id": "odyssey",
+  "language_code": "ko",
+  "language_name": "Korean",
+  "tab1_about_the_book": {
+    "title": "오디세이아 (Odysseia)",
+    "subtitle": "현대인을 위한 모험 서사 판타지",
+    "book_identifier": "GGKEY:8RSLG7CBZBC",
+    "language": "Korean",
+    "publisher": "TKPROF LLC",
+    "format": "Ebook",
+    "page_count": "350",
+    "release_date": "2026-08-12",
+    "publication_date": "2026-08-12",
+    "minimum_age": "",
+    "maximum_age": "",
+    "mature_audience": false,
+    "description_text": "오디세이아 소개\n\n고대 그리스의 가장 위대한 모험이자 서양 문학의 뿌리가 된 호메로스의 서사시, <오디세이아>의 현대어 개정판에 오신 것을 환영합니다.\n\n트로이 전쟁이 끝난 후, 지략이 뛰어난 영웅 오디세우스는 사랑하는 아내 페넬로페와 아들 텔레마코스가 기다리는 고향 이타카 섬으로 돌아가기 위해 바다로 나섭니다. 하지만 그의 여정은 순탄하지 않았습니다. 오디세우스가 키클롭스의 눈을 멀게 하자 바다의 신 포세이돈은 크게 분노했고, 그가 고향으로 돌아가지 못하도록 십 년 동안 온갖 시련과 폭풍을 몰고 옵니다. 외눈박이 거인 폴리페모스, 매혹적인 노래로 선원들을 홀리는 사이렌, 사람을 돼지로 만드는 마녀 키르케, 그리고 바다의 괴물 스킬라와 카리브디스까지, 오디세우스는 수많은 신화 속 괴물들과 마주하며 목숨을 건 모험을 펼칩니다.\n\n그 사이, 고향 이타카의 오디세우스 왕궁은 무법천지가 되어버렸습니다. 오디세우스가 죽었다고 믿는 수십 명의 무례한 구혼자들이 왕관과 페넬로페 왕비를 차지하기 위해 매일 잔치를 벌이며 왕궁의 재산을 낭비하고 있었기 때문입니다. 이제 청년으로 자라난 아들 텔레마코스는 아버지를 찾기 위해 먼 여행을 떠나고, 페넬로페는 지혜롭게 구혼자들의 압박을 견디며 남편의 귀환을 기다립니다. 전쟁의 여신 아테나는 오디세우스 가문을 돕기 위해 곳곳에서 보이지 않는 손길로 그들을 지원합니다.\n\n본 개정판은 어렵고 딱딱한 고전 서사시를 청소년을 포함한 현대 독자들도 조금 더 쉽고 흥미진진하게 감상하실 수 있도록 돕고자 현대적인 소설 스타일로 다듬었습니다. 특히 오디오북과 TTS(음성 읽기) 환경에서도 귀로 듣기에 매끄럽고 편안하게 들릴 수 있도록 구어체 표현에 세심한 주의를 기울였으며, 동시에 호메로스 원작이 지닌 깊이와 생생한 모험의 매력을 조심스럽게 살려내고자 노력했습니다. 오디세우스와 함께 드넓은 지중해의 신화 속으로 편안하게 모험의 여정을 떠나보시길 바랍니다."
+  },
+  "tab2_genres": {
+    "bisac_categories": [
+      "FICTION / Classics",
+      "FICTION / Action & Adventure"
+    ]
+  },
+  "tab3_contributors": [
+    {
+      "name": "호메로스",
+      "role": "Author",
+      "bio": "호머(호메로스, Homeros)는 고대 그리스의 대표적인 대서사시인으로, 인류 문학사에서 가장 위대한 서사시로 꼽히는 《일리아스》와 《오디세이아》의 작가입니다. 그의 영웅적 서사와 깊이 있는 인물 묘사는 서양 문학과 철학, 신화적 상상력의 영원한 원천이 되었습니다."
+    },
+    {
+      "name": "TKPROF LLC",
+      "role": "Translator",
+      "bio": "TKPROF LLC는 고전 문학의 현대화 및 eBook/오디오북 퍼블리싱 전문 팀입니다. 본 현대어 개정판은 새뮤얼 버틀러(Samuel Butler)의 원작 서사시를 바탕으로 현대 독자와 TTS 청취 환경에 최적화하여 편역했습니다: 1) 장황한 고어 문장을 현대적 구어체 소설 스타일로 다듬었습니다. 2) TTS 음성 읽기 환경에 맞춰 문장 호흡과 대화 흐름을 조절했습니다. 3) 로마 신화 표기(울리세스, 미네르바 등)를 친숙한 그리스 신화 표기(오디세우스, 아테나 등)로 통일했습니다. 4) 완판 서사 구조를 생략 없이 보존했습니다."
+    }
+  ],
+  "tab4_series": {
+    "series_title": "",
+    "volume_number": ""
+  },
+  "tab5_settings": {
+    "enable_drm": true,
+    "preview_percentage": "20"
+  },
+  "files": {
+    "epub_path": "C:\\git_repo\\TKprof_book\\books\\odyssey\\odyssey_ko.epub",
+    "epub_exists": true,
+    "cover_path": "C:\\git_repo\\TKprof_book\\books\\odyssey\\cover_ko.jpg",
+    "cover_exists": true
+  },
+  "pricing": {
+    "price_usd": "3.99",
+    "currency": "USD",
+    "world_rights": true,
+    "territories": [
+      "WORLD"
+    ]
+  }
+}

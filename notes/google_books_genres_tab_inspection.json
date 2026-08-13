@@ -1,0 +1,122 @@
+{
+  "url": "https://play.google.com/books/publish/a/17083112867666702510#book/GGKEY:8RSLG7CBZBC;jc=true/info/genres",
+  "fields": [
+    {
+      "idx": 1,
+      "tag": "div",
+      "type": "",
+      "id": "",
+      "label": "",
+      "value": "",
+      "placeholder": ""
+    },
+    {
+      "idx": 2,
+      "tag": "div",
+      "type": "",
+      "id": "",
+      "label": "",
+      "value": "",
+      "placeholder": ""
+    },
+    {
+      "idx": 3,
+      "tag": "div",
+      "type": "",
+      "id": "",
+      "label": "",
+      "value": "",
+      "placeholder": ""
+    },
+    {
+      "idx": 4,
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "label": "",
+      "value": "sms_failed",
+      "placeholder": ""
+    },
+    {
+      "idx": 5,
+      "tag": "a",
+      "type": "",
+      "id": "",
+      "label": "",
+      "value": "",
+      "placeholder": ""
+    },
+    {
+      "idx": 6,
+      "tag": "a",
+      "type": "",
+      "id": "",
+      "label": "",
+      "value": "",
+      "placeholder": ""
+    },
+    {
+      "idx": 7,
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "label": "",
+      "value": "",
+      "placeholder": ""
+    },
+    {
+      "idx": 8,
+      "tag": "mat-select",
+      "type": "",
+      "id": "mat-select-12",
+      "label": "BISAC (North America)",
+      "value": "BISAC (North America)\t",
+      "placeholder": "Select a genre type"
+    },
+    {
+      "idx": 9,
+      "tag": "input",
+      "type": "text",
+      "id": "mat-input-32",
+      "label": "",
+      "value": "",
+      "placeholder": "Enter a genre name or code"
+    },
+    {
+      "idx": 10,
+      "tag": "button",
+      "type": "button",
+      "id": "",
+      "label": "BISAC (North America)",
+      "value": "close",
+      "placeholder": ""
+    },
+    {
+      "idx": 11,
+      "tag": "button",
+      "type": "button",
+      "id": "",
+      "label": "BISAC (North America)",
+      "value": "add Add a genre",
+      "placeholder": ""
+    },
+    {
+      "idx": 12,
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "label": "Save & Continue",
+      "value": "Save & Continue",
+      "placeholder": ""
+    },
+    {
+      "idx": 13,
+      "tag": "button",
+      "type": "submit",
+      "id": "",
+      "label": "Save & Continue",
+      "value": "Save",
+      "placeholder": ""
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://draft2digital.com/book/e/4382633/preview",
+  "title": "Draft2Digital | Ebook Preview",
+  "timestamp": "2026-08-12T21:20:08.066Z",
+  "fields": [
+    {
+      "index": 1,
+      "tag": "label",
+      "type": "",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "aria_label": "",
+      "role": "",
+      "label_text": "",
+      "value": "",
+      "is_visible": true,
+      "best_selector": ""
+    },
+    {
+      "index": 2,
+      "tag": "button",
+      "type": "",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "aria_label": "",
+      "role": "",
+      "label_text": "",
+      "value": "",
+      "is_visible": true,
+      "best_selector": ""
+    }
+  ]
+}

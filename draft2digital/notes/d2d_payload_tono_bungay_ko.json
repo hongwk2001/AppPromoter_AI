@@ -1,0 +1,31 @@
+{
+  "book": "tono_bungay",
+  "language": "Korean",
+  "language_code": "ko",
+  "title": "토노 번게이 (Tono-Bungay)",
+  "subtitle": "Tono-Bungay",
+  "author": "H. G. 웰스",
+  "publisher": "TKPROF LLC",
+  "explicit_content": false,
+  "content_rating_text": "My book does NOT contain content inappropriate for minors. It is intended for a general audience.",
+  "description": "독자 여러분께 드리는 글\n\n과학소설의 거장 H. G. 웰스의 가장 날카롭고 유쾌한 사회 풍자 명작, <토노 번게이(Tono-Bungay)>의 현대어 한국어판에 오신 것을 환영합니다.\n\n이야기의 주인공 조지 폰데레보는 런던에서 가난하게 살아가던 중, 엉뚱하고 야망 넘치는 삼촌 에드워드 폰데레보를 만나게 됩니다. 삼촌은 살짝 자극적이지만 아무런 효능도 없는 가짜 만병통치약 약물인 '토노 번게이(Tono-Bungay)'를 발명하고, 화려한 광고와 마케팅 기법으로 대중의 마음을 사로잡습니다.\n\n시골 약국에서 시작된 작은 사기극은 순식간에 거대한 화려한 금융 제국으로 번져나가고, 조지와 삼촌은 급격한 부와 상류사회 화려함의 중심에 서게 됩니다. 하지만 거짓과 환상 위에 세워진 상업적 제국은 시간이 흐를수록 흔들리기 시작하고, 조지는 자본주의 사회의 헛된 야망과 모순, 그리고 진정한 삶의 가치에 대해 깊이 고민하게 됩니다.\n\n본 현대어판에서는 현대 독자들과 한국어 읽기 독자분들이 이야기의 흥미진진한 전개와 풍부한 위트를 더욱 부담 없이 즐길 수 있도록, 20세기 초의 생소한 표현을 매끄럽고 간결한 한국어로 다듬었습니다. 원작 고유의 비판적 시각과 유머러스한 문체는 그대로 고스란히 보존하였습니다.\n\n부와 성공의 착시 현상을 신랄하고 위트 있게 그려낸 이 특별한 고전 소설이 독자 여러분에게 깊은 여운과 재미를 선사하길 바랍니다.",
+  "categories": [
+    "Fiction / Classics",
+    "Fiction / Satire",
+    "Fiction / Literary"
+  ],
+  "keywords": [
+    "토노번게이",
+    "Tono Bungay",
+    "HG웰스",
+    "고전소설",
+    "영국문학",
+    "풍자소설"
+  ],
+  "epub_path": "C:\\git_repo\\TKprof_book\\books\\tono_bungay\\tono_bungay_ko.epub",
+  "cover_path": "C:\\git_repo\\TKprof_book\\books\\tono_bungay\\cover.jpg",
+  "files_exist": {
+    "epub": true,
+    "cover": true
+  }
+}
