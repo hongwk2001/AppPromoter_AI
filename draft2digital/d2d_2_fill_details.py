@@ -42,7 +42,8 @@ def fill_step2(book_name, lang="ko", port=9222):
             print(f"Error: Could not connect to Chrome on port {port}: {e}")
             return
 
-        page = [pg for pg in browser.contexts[0].pages if "draft2digital.com" in pg.url][0]
+        pages = [pg for pg in browser.contexts[0].pages if "/book/" in pg.url]
+        page = pages[0] if pages else [pg for pg in browser.contexts[0].pages if "draft2digital.com" in pg.url][0]
         print(f"Active Tab: {page.url} ({page.title()})")
 
         # 1. Upload Manuscript EPUB
@@ -98,10 +99,10 @@ def fill_step2(book_name, lang="ko", port=9222):
                 add_contrib_btn.click()
                 page.wait_for_timeout(500)
 
-            curr_text = contributor_wrapper.inner_text()
             for contrib in step2["contributors"]:
                 c_name = contrib["name"]
                 c_role = contrib["role"]
+                curr_text = contributor_wrapper.inner_text()
                 if c_name in curr_text and c_role in curr_text:
                     print(f"  ✓ Contributor {c_name} ({c_role}) already present.")
                     continue
@@ -128,6 +129,23 @@ def fill_step2(book_name, lang="ko", port=9222):
                         page.wait_for_timeout(600)
                     except Exception:
                         pass
+
+            # Reset/Clear pending contributor dropdown row if needed so Save & Continue is enabled
+            if "Finish adding" in contributor_wrapper.inner_text() or page.locator("#newContributorName").count() > 0:
+                if page.locator("#newContributorRole").count() > 0:
+                    page.locator("#newContributorRole").click()
+                    page.wait_for_timeout(300)
+                    none_role = page.locator("text='(none)'")
+                    if none_role.count() > 0:
+                        none_role.first.click()
+                if page.locator("#newContributorName").count() > 0:
+                    page.locator("#newContributorName").click()
+                    page.wait_for_timeout(300)
+                    none_opt = page.locator("text='(none)'")
+                    if none_opt.count() > 0:
+                        none_opt.first.click()
+                    print("  ✓ Cleared pending contributor dropdown with (none)")
+                    page.wait_for_timeout(400)
 
         # 5. Free Draft2Digital ISBN Radio Selection
         if step2.get("use_free_d2d_isbn", True):

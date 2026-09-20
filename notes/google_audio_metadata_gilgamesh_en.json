@@ -1,0 +1,59 @@
+{
+  "book_id": "gilgamesh_en",
+  "format": "AUDIOBOOK",
+  "language_code": "en",
+  "language_name": "English",
+  "book_info": {
+    "title": "The Epic of Gilgamesh",
+    "subtitle": "An Ancient Tale Retold - Complete Unabridged Audiobook",
+    "publisher": "TKPROF LLC",
+    "duration": "00:37:24",
+    "language": "English",
+    "language_code": "en",
+    "subject_scheme": "BISAC",
+    "categories": [
+      "FICTION / Classics",
+      "FICTION / Ancient",
+      "FICTION / Fairy Tales, Folk Tales, Legends & Mythology"
+    ],
+    "description": "# About The Epic of Gilgamesh\n\nOriginating in ancient Mesopotamia over four thousand years ago, *The Epic of Gilgamesh* is humanity’s oldest surviving literary epic. Recorded on clay cuneiform tablets in ancient Babylon, the epic recounts the heroic exploits, profound grief, and quest for immortality of Gilgamesh, the legendary king of Uruk.\n\n### The Timeless Heroic Journey:\n- **The King of Uruk**: Two-thirds divine and one-third mortal, King Gilgamesh rules Uruk with unmatched strength and pride.\n- **The Creation of Enkidu**: Formed by the gods from wild earth, Enkidu becomes Gilgamesh's loyal brother-in-arms.\n- **Slaying of Humbaba & The Bull of Heaven**: Together, the heroes defeat the terrible guardian of the Cedar Forest and defy goddess Ishtar.\n- **The Quest for Immortality**: Stricken with grief upon Enkidu's death, Gilgamesh journeys to the ends of the earth to consult Utnapishtim, survivor of the Great Deluge.\n\nThis high-fidelity classic audiobook edition delivers the complete heroic narrative in clear, engaging, and atmospheric English performance."
+  },
+  "contributors": [
+    {
+      "name": "Anonymous",
+      "role": "Author",
+      "bio": "Composed anonymously in ancient Mesopotamia over four millennia ago, The Epic of Gilgamesh was preserved on clay tablets written in cuneiform script across Sumerian, Akkadian, and Babylonian traditions."
+    },
+    {
+      "name": "TKPROF LLC",
+      "role": "Publisher",
+      "bio": "TKPROF LLC is a premier publishing imprint dedicated to restoring, producing, and distributing classic literary masterworks and ancient epics in high-fidelity digital and audiobook formats."
+    },
+    {
+      "name": "TKPROF LLC",
+      "role": "Narrator",
+      "narrator_type": "Synthesized voice",
+      "bio": "TKPROF LLC utilizes state-of-the-art AI voice synthesis technology paired with immersive audio engineering to deliver clear, articulate, and engaging audiobook performances."
+    }
+  ],
+  "content_files": {
+    "cover_image_path": "C:\\git_repo\\TKprof_book\\books\\gilgamesh\\cover_en_2400.jpg",
+    "cover_exists": true,
+    "audio_dir": "C:\\git_repo\\TKprof_book\\books\\gilgamesh\\audio",
+    "audio_track_count": 9,
+    "audio_files": [
+      "C:\\git_repo\\TKprof_book\\books\\gilgamesh\\audio\\opening_credits_en.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\gilgamesh\\audio\\ch_01_en.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\gilgamesh\\audio\\ch_02_en.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\gilgamesh\\audio\\ch_03_en.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\gilgamesh\\audio\\ch_04_en.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\gilgamesh\\audio\\ch_05_en.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\gilgamesh\\audio\\ch_06_en.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\gilgamesh\\audio\\ending_credits_en.mp3"
+    ]
+  },
+  "pricing": {
+    "digital_price_usd": "9.99",
+    "currency": "USD"
+  }
+}

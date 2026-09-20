@@ -1,0 +1,64 @@
+{
+  "book_id": "richest_man_in_babylon_linear",
+  "format": "AUDIOBOOK",
+  "language_code": "en",
+  "language_name": "English",
+  "book_info": {
+    "title": "The Richest Man in Babylon: The Linear Edition",
+    "subtitle": "The Classic Guide to Financial Freedom - Chronological Restoration",
+    "publisher": "TKPROF LLC",
+    "duration": "03:34:38",
+    "duration_seconds": 12878.24,
+    "language": "English",
+    "language_code": "en",
+    "subject_scheme": "BISAC",
+    "categories": [
+      "BUSINESS & ECONOMICS / Personal Finance / Money Management",
+      "BUSINESS & ECONOMICS / Personal Success",
+      "BUSINESS & ECONOMICS / Investments & Securities",
+      "BUSINESS & ECONOMICS / Wealth Management"
+    ],
+    "description": "# About The Richest Man in Babylon: The Linear Edition\n\nSet in ancient Babylon, George S. Clason’s timeless financial classic has guided millions toward wealth, independence, and financial security for a century. Written as a series of engaging parables set against the backdrop of the wealthiest city of the ancient world, the book reveals fundamental principles of money management that remain as powerful today as when they were first written.\n\n### What Makes The Linear Edition Special?\nIn original anthologies, Clason's parables were published out of historical sequence across separate promotional pamphlets. **The Linear Edition** carefully restores these legendary financial lessons into a seamless, chronological narrative flow. From the humble aspirations of Bansar and Kobbi to the master lectures of Arkad—the richest man in Babylon—and the ancient clay tablets deciphered by modern archeologists, this edition presents the complete arc of Babylonian wisdom in its most clear, engaging, and accessible form.\n\n### Core Financial Laws Revealed Inside:\n- **Start Thy Purse to Fattening**: Keep at least one-tenth of all you earn.\n- **Control Thy Expenditures**: Distinguish between necessities and casual desires.\n- **Make Thy Gold Multiply**: Put your savings to work in safe, profitable investments.\n- **Guard Thy Treasures from Loss**: Invest only where principal is safe and expert counsel is available.\n- **Make of Thy Dwelling a Profitable Investment**: Own your home and build lasting stability.\n- **Insure a Future Income**: Plan ahead for old age and the protection of your family.\n- **Increase Thy Ability to Earn**: Cultivate wisdom, skills, and self-respect.\n\nWhether you are taking your first steps toward financial independence or seeking to deepen your mastery over money, *The Richest Man in Babylon: The Linear Edition* offers an inspiring, immersive, and unforgettable roadmap to building enduring wealth."
+  },
+  "contributors": [
+    {
+      "name": "George S. Clason",
+      "role": "Author",
+      "bio": "George Samuel Clason (1874–1957) was an American author, publisher, and soldier. In 1926, he issued the first of a famous series of pamphlets on thrift and financial success, using ancient Babylonian parables to highlight timeless financial principles. These pamphlets were later compiled into the legendary book 'The Richest Man in Babylon'."
+    },
+    {
+      "name": "TKPROF LLC",
+      "role": "Editor",
+      "bio": "TKPROF LLC is a premier publishing imprint dedicated to restoring, translating, and producing classic literature, historical epics, and timeless masterworks in high-fidelity audiobook and digital formats."
+    },
+    {
+      "name": "TKPROF LLC",
+      "role": "Narrator",
+      "narrator_type": "Synthesized voice",
+      "bio": "TKPROF LLC utilizes state-of-the-art AI voice synthesis technology paired with immersive audio engineering to deliver clear, articulate, and engaging audiobook performances."
+    }
+  ],
+  "content_files": {
+    "cover_image_path": "C:\\git_repo\\TKprof_book\\books\\richest_man_in_babylon_linear\\cover_en_2400.jpg",
+    "cover_exists": true,
+    "audio_dir": "C:\\git_repo\\TKprof_book\\books\\richest_man_in_babylon_linear\\final_audio",
+    "audio_track_count": 11,
+    "audio_files": [
+      "C:\\git_repo\\TKprof_book\\books\\richest_man_in_babylon_linear\\final_audio\\ch_01_the_golden_city_of_barefoot_men.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\richest_man_in_babylon_linear\\final_audio\\ch_02_the_scribes_legacy.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\richest_man_in_babylon_linear\\final_audio\\ch_03_the_temple_of_learning.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\richest_man_in_babylon_linear\\final_audio\\ch_04_the_goddess_of_good_luck.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\richest_man_in_babylon_linear\\final_audio\\ch_05_the_gold_lenders_scales.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\richest_man_in_babylon_linear\\final_audio\\ch_06_the_five_laws_of_gold.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\richest_man_in_babylon_linear\\final_audio\\ch_07_the_syrian_trail.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\richest_man_in_babylon_linear\\final_audio\\ch_08_the_debt_cleansing.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\richest_man_in_babylon_linear\\final_audio\\ch_09_the_luckiest_man_in_babylon.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\richest_man_in_babylon_linear\\final_audio\\ch_10_the_legacy_of_babylon.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\richest_man_in_babylon_linear\\final_audio\\ch_11_epilogue_the_nottingham_letters.mp3"
+    ]
+  },
+  "pricing": {
+    "digital_price_usd": "9.99",
+    "currency": "USD"
+  }
+}

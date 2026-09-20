@@ -1,0 +1,42 @@
+{
+  "book_id": "scaramouche_book1",
+  "language_code": "ko",
+  "language_name": "Korean",
+  "title": "스카라무슈 1: 법의 옷 (Scaramouche)",
+  "subtitle": "Scaramouche: Book 1 - The Robe",
+  "author_first": "라파엘",
+  "author_last": "사바티니",
+  "narrator_first": "TKPROF",
+  "narrator_last": "AI",
+  "is_ai_voice": true,
+  "ai_engine": "Microsoft",
+  "is_ai_text": true,
+  "is_series": true,
+  "series_name": "Scaramouche",
+  "series_number": "1",
+  "has_publisher": true,
+  "publisher": "TKPROF LLC",
+  "description": "★ 프랑스 혁명의 불길 속에서 탄생한 비극과 웃음의 모험 대서사시! ★\n\n라파엘 사바티니(Rafael Sabatini)의 세계적인 거장 역사 모험 소설 《스카라무슈》 제1부: 법복 (The Robe) 편입니다.\n\n18세기 프랑스 혁명 직전, 차가운 이성과 비범한 기지를 지닌 법학도 앙드레 루이 모로. 절친한 친구 필립 드 빌모랭이 오만한 귀족 라 투르 다르지르 후작의 검에 무참히 살해당하자, 앙드레 루이는 세상을 향한 복수와 정의를 맹세하며 혁명의 불길 속으로 뛰어듭니다.",
+  "categories": [
+    "FICTION / Classics",
+    "FICTION / Action & Adventure"
+  ],
+  "keywords": "스카라무슈; Scaramouche; 라파엘 사바티니; 프랑스 혁명; 역사 모험 소설; 고전 소설; 활극",
+  "price_usd": "3.27",
+  "cover_path": "C:\\git_repo\\TKprof_book\\books\\scaramouche\\cover_b1_ko_2400.jpg",
+  "audio_dir": "C:\\git_repo\\TKprof_book\\books\\scaramouche\\final_audio_book1",
+  "opening_track": "C:\\git_repo\\TKprof_book\\books\\scaramouche\\final_audio_book1\\final_track_01_ko.mp3",
+  "closing_track": "C:\\git_repo\\TKprof_book\\books\\scaramouche\\final_audio_book1\\final_track_09_ko.mp3",
+  "sample_track": "C:\\git_repo\\TKprof_book\\books\\scaramouche\\final_audio_book1\\sample.mp3",
+  "audio_tracks": [
+    "C:\\git_repo\\TKprof_book\\books\\scaramouche\\final_audio_book1\\final_track_01_ko.mp3",
+    "C:\\git_repo\\TKprof_book\\books\\scaramouche\\final_audio_book1\\final_track_02_ko.mp3",
+    "C:\\git_repo\\TKprof_book\\books\\scaramouche\\final_audio_book1\\final_track_03_ko.mp3",
+    "C:\\git_repo\\TKprof_book\\books\\scaramouche\\final_audio_book1\\final_track_04_ko.mp3",
+    "C:\\git_repo\\TKprof_book\\books\\scaramouche\\final_audio_book1\\final_track_05_ko.mp3",
+    "C:\\git_repo\\TKprof_book\\books\\scaramouche\\final_audio_book1\\final_track_06_ko.mp3",
+    "C:\\git_repo\\TKprof_book\\books\\scaramouche\\final_audio_book1\\final_track_07_ko.mp3",
+    "C:\\git_repo\\TKprof_book\\books\\scaramouche\\final_audio_book1\\final_track_08_ko.mp3",
+    "C:\\git_repo\\TKprof_book\\books\\scaramouche\\final_audio_book1\\final_track_09_ko.mp3"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "book_id": "beowulf",
+  "language_code": "ko",
+  "language_name": "Korean",
+  "tab1_about_the_book": {
+    "title": "베오울프: 스펙터클 현대 한국어판",
+    "subtitle": "현대어 한국어 번역판",
+    "book_identifier": "",
+    "language": "Korean",
+    "publisher": "TKPROF LLC",
+    "format": "Ebook",
+    "page_count": "320",
+    "release_date": "2026-08-12",
+    "publication_date": "2026-08-12",
+    "minimum_age": "",
+    "maximum_age": "",
+    "mature_audience": false,
+    "description_text": "★ 영문학 최고의 고전 서사시, 압도적 몰입감의 현대 웹소설 스타일로 재탄생! ★\n\n괴물 그렌델의 피비린내 나는 습격, 핏빛 늪속 수중 굴에서의 사투, 그리고 화염을 뿜어내는 마지막 거룡과의 멸망전!\n800년 역사를 가진 인류 위대한 고전 《베오울프》가 현대 판타지 웹소설의 스펙터클한 문법과 속도감 넘치는 현대 한국어로 새롭게 찾아왔습니다.\n\n■ 작품 특징\n- 속도감 넘치는 웹소설 스타일: 지루하고 딱딱한 고어 직역을 벗어나, 액션과 긴장감이 살아 숨쉬는 현대적 문체 적용.\n- 웅장한 전설의 완성: 헤오로트 대연회장의 비극부터 영웅의 마지막 용 사냥까지 숨막히는 서사를 한 권에 담았습니다.\n- 고품질 일러스트 탑재: 괴물 그렌델, 물마녀, 거룡과의 전투 장면을 담은 고해상도 일러스트레이션 수록.\n\n■ 줄거리\n6세기 스칸디나비아, 덴마크 왕국의 대연회장 헤오로트는 매일 밤 괴물 그렌델의 잔혹한 학살로 피로 물든다.\n절망에 빠진 왕국을 구하기 위해 바다를 건너온 게아트족의 영웅 베오울프.\n맨손으로 괴물의 팔을 뽑아버린 첫 승리 뒤에는 더 끔찍한 그렌델의 어미와 사나운 화룡과의 사투가 그를 기다리고 있는데...\n\n판타지 로판, 무협, 웹소설을 즐기는 현대 독자라면 반드시 읽어야 할 고전 영웅 서사의 원점!"
+  },
+  "tab2_genres": {
+    "bisac_categories": [
+      "FICTION / Classics",
+      "FICTION / Action & Adventure",
+      "FICTION / Fantasy / Action & Adventure"
+    ]
+  },
+  "tab3_contributors": [
+    {
+      "name": "작자 미상",
+      "role": "Author",
+      "bio": "《베오울프》(Beowulf)는 8세기~11세기경 고대 영어로 작성된 영문학 최선두의 고대 서사시로, 작자는 미상이나 인류 문학사에서 영웅 서사시의 원형으로 평가받습니다."
+    },
+    {
+      "name": "TKPROF LLC",
+      "role": "Translator",
+      "bio": "TKPROF LLC는 고전 문학의 현대화 및 eBook/오디오북 퍼블리싱 전문 팀입니다. 본 현대어 개정판은 고대 영문학 대서사시 《베오울프》 원작을 바탕으로 현대 독자와 TTS 청취 환경에 최적화하여 편역했습니다: 1) 장황하고 딱딱한 고어 직역을 벗어나 현대적 구어체 소설 스타일과 속도감 넘치는 문체를 적용했습니다. 2) TTS 음성 읽기 및 전자책 독서 환경에 맞춰 문장 호흡과 대화 흐름을 조절했습니다. 3) 완판 서사 구조를 생략 없이 보존했습니다."
+    }
+  ],
+  "tab4_series": {
+    "series_title": "",
+    "volume_number": ""
+  },
+  "tab5_settings": {
+    "enable_drm": true,
+    "preview_percentage": "20"
+  },
+  "files": {
+    "epub_path": "C:\\git_repo\\TKprof_book\\books\\beowulf\\beowulf_ko.epub",
+    "epub_exists": true,
+    "cover_path": "C:\\git_repo\\TKprof_book\\books\\beowulf\\cover_ko.jpg",
+    "cover_exists": true
+  },
+  "pricing": {
+    "price_usd": "3.99",
+    "currency": "USD",
+    "world_rights": true,
+    "territories": [
+      "WORLD"
+    ]
+  }
+}

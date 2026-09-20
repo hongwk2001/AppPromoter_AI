@@ -126,6 +126,18 @@ BOOK_PRESETS = {
         "categories": ["FICTION / Classics", "FOREIGN LANGUAGE STUDY / Korean", "FICTION / Horror"],
         "price_usd": "4.99",
         "page_count": "650"
+    },
+    "beowulf": {
+        "title_en": "Beowulf: Spectacular Modern English Edition",
+        "title_ko": "베오울프: 스펙터클 현대 한국어판",
+        "subtitle_en": "Modern English Edition",
+        "subtitle_ko": "현대어 한국어 번역판",
+        "author_en": "Anonymous",
+        "author_ko": "작자 미상",
+        "publisher": "TKPROF LLC",
+        "categories": ["FICTION / Classics", "FICTION / Action & Adventure", "FICTION / Fantasy / Action & Adventure"],
+        "price_usd": "3.99",
+        "page_count": "320"
     }
 }
 
@@ -222,6 +234,8 @@ def prepare_google_metadata(book_name, lang="ko"):
                 "name": author,
                 "role": "Author",
                 "bio": (
+                    "《베오울프》(Beowulf)는 8세기~11세기경 고대 영어로 작성된 영문학 최선두의 고대 서사시로, 작자는 미상이나 인류 문학사에서 영웅 서사시의 원형으로 평가받습니다."
+                    if "beowulf" in b_key else
                     "호머(호메로스, Homeros)는 고대 그리스의 대표적인 대서사시인으로, 인류 문학사에서 가장 위대한 서사시로 꼽히는 《일리아스》와 《오디세이아》의 작가입니다."
                     if "odyssey" in b_key else
                     "라파엘 사바티니(Rafael Sabatini, 1875~1950)는 <스카라무슈>(Scaramouche), <캡틴 블러드>(Captain Blood) 등의 명작을 남긴 이탈리아 출신의 세계적인 영국 모험·역사소설가입니다."
@@ -235,6 +249,8 @@ def prepare_google_metadata(book_name, lang="ko"):
                 "name": "TKPROF LLC",
                 "role": "Translator",
                 "bio": (
+                    "TKPROF LLC는 고전 문학의 현대화 및 eBook/오디오북 퍼블리싱 전문 팀입니다. 본 현대어 개정판은 고대 영문학 대서사시 《베오울프》 원작을 바탕으로 현대 독자와 TTS 청취 환경에 최적화하여 편역했습니다: 1) 장황하고 딱딱한 고어 직역을 벗어나 현대적 구어체 소설 스타일과 속도감 넘치는 문체를 적용했습니다. 2) TTS 음성 읽기 및 전자책 독서 환경에 맞춰 문장 호흡과 대화 흐름을 조절했습니다. 3) 완판 서사 구조를 생략 없이 보존했습니다."
+                    if "beowulf" in b_key else
                     "TKPROF LLC는 고전 문학의 현대화 및 eBook/오디오북 퍼블리싱 전문 팀입니다. 본 현대어 개정판은 라파엘 사바티니(Rafael Sabatini)의 원작을 바탕으로 현대 독자와 TTS 청취 환경에 최적화하여 편역했습니다: 1) 장황한 19세기 문어체 문장을 현대적 구어체 소설 스타일로 다듬었습니다. 2) TTS 음성 읽기 환경에 맞춰 문장 호흡과 대화 흐름을 조절했습니다. 3) 프랑스 혁명기의 역사 용어와 펜싱·극단 고유 명사를 한국어 독자에게 알기 쉽게 다듬었습니다. 4) 완판 서사 구조를 생략 없이 보존했습니다."
                     if "scaramouche" in b_key else
                     "TKPROF LLC는 고전 문학의 현대화 및 한영 대역/이중언어(Bilingual) eBook 퍼블리싱 전문 팀입니다. 본 한영 대역 개정판은 브램 스토커(Bram Stoker)의 1897년 무삭제 원문과 현대 한국어 번역을 단락 대 단락(Line-by-Line Parallel)으로 정밀 배치하여, 영어 학습자, ESL 독자, 고전 문학 팬들이 원문과 번역문을 직관적으로 대조하며 감상할 수 있도록 최적화 제작되었습니다."

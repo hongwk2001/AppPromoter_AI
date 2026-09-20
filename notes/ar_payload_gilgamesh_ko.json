@@ -1,0 +1,40 @@
+{
+  "book_id": "gilgamesh",
+  "language_code": "ko",
+  "language_name": "Korean",
+  "title": "길가메시 서사시: 스펙터클 현대 한국어판 (The Epic of Gilgamesh)",
+  "subtitle": "인류 최초의 위대한 고전 서사시 오디오북",
+  "author_first": "작자",
+  "author_last": "미상",
+  "narrator_first": "TKPROF",
+  "narrator_last": "AI",
+  "is_ai_voice": true,
+  "ai_engine": "Microsoft",
+  "is_series": false,
+  "series_name": "",
+  "series_number": "",
+  "has_publisher": true,
+  "publisher": "TKPROF LLC",
+  "description": "★ 인류 문학사 최초의 위대한 대서사시 《길가메시 서사시》, 4천 년의 시공을 넘어 현대 오디오북으로 완전 재탄생! ★\n\n우루크 도시의 오만한 영웅 왕 길가메시와 야성의 동반자 엔키두의 맹세, 괴물 훔바바와의 죽음을 무릅쓴 사투, 그리고 죽음의 공포를 넘어 영생의 비밀을 찾아 떠나는 장대한 모험!\n\n■ 작품 특징\n- 메소포타미아 점토판 고전 서사시를 현대 구어체로 완판 재번역\n- 전 6장의 스펙터클한 액션과 입체적 내레이션 연출\n- 인류 최초의 위대한 유산과 영원한 우정을 담은 명작\n\n저작권 안내: 한국어 번역 및 출판 TKPROF LLC.",
+  "categories": [
+    "FICTION / Classics",
+    "FICTION / Action & Adventure"
+  ],
+  "keywords": "길가메시;서사시;메소포타미아;고전소설;오디오북;엔키두;Gilgamesh;audiobook",
+  "price_usd": "9.99",
+  "cover_path": "C:\\git_repo\\TKprof_book\\books\\gilgamesh\\cover_ko_2400.jpg",
+  "audio_dir": "C:\\git_repo\\TKprof_book\\books\\gilgamesh\\audio",
+  "opening_track": "C:\\git_repo\\TKprof_book\\books\\gilgamesh\\audio\\opening_credits_ko.mp3",
+  "closing_track": "C:\\git_repo\\TKprof_book\\books\\gilgamesh\\audio\\ending_credits_ko.mp3",
+  "sample_track": "C:\\git_repo\\TKprof_book\\books\\gilgamesh\\audio\\retail_sample_ko.mp3",
+  "audio_tracks": [
+    "C:\\git_repo\\TKprof_book\\books\\gilgamesh\\audio\\opening_credits_ko.mp3",
+    "C:\\git_repo\\TKprof_book\\books\\gilgamesh\\audio\\ch_01_ko.mp3",
+    "C:\\git_repo\\TKprof_book\\books\\gilgamesh\\audio\\ch_02_ko.mp3",
+    "C:\\git_repo\\TKprof_book\\books\\gilgamesh\\audio\\ch_03_ko.mp3",
+    "C:\\git_repo\\TKprof_book\\books\\gilgamesh\\audio\\ch_04_ko.mp3",
+    "C:\\git_repo\\TKprof_book\\books\\gilgamesh\\audio\\ch_05_ko.mp3",
+    "C:\\git_repo\\TKprof_book\\books\\gilgamesh\\audio\\ch_06_ko.mp3",
+    "C:\\git_repo\\TKprof_book\\books\\gilgamesh\\audio\\ending_credits_ko.mp3"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "book_id": "science_of_getting_rich",
+  "format": "AUDIOBOOK",
+  "language_code": "en",
+  "language_name": "English",
+  "book_info": {
+    "title": "The Science of Getting Rich",
+    "subtitle": "The Proven Mental & Spiritual Formula for Attaining Financial Abundance",
+    "publisher": "TKPROF LLC",
+    "duration": "02:04:30",
+    "language": "English",
+    "language_code": "en",
+    "subject_scheme": "BISAC",
+    "categories": [
+      "BUSINESS & ECONOMICS / Personal Finance / Money Management",
+      "BUSINESS & ECONOMICS / Personal Success",
+      "BUSINESS & ECONOMICS / Personal Finance / Wealth Management",
+      "SELF-HELP / Personal Growth / Success"
+    ],
+    "description": "# About The Science of Getting Rich\n\nPublished in 1910, Wallace D. Wattles' seminal masterpiece *The Science of Getting Rich* is the foundational text of modern wealth mindset, self-mastery, and the Law of Attraction. Influencing generations of leaders, entrepreneurs, and thinkers, Wattles demonstrates that acquiring wealth is not a matter of luck, environment, or talent—it is an exact science based on acting and thinking in a 'Certain Way.'\n\n### Core Philosophy & Principles Inside:\n- **The Right to Be Rich**: Wealth is essential for the full development of mind, body, and soul.\n- **There is a Thinking Substance**: All things are created from original formless substance that responds to human thought.\n- **The Certain Way**: How to replace competition with creation, gratitude, and purposeful action.\n- **The Power of Gratitude**: Connecting your mind with the source of infinite supply through daily appreciation.\n- **Efficient Action**: Performing every daily task with complete focus, faith, and purpose.\n\nThis high-fidelity classic audiobook edition delivers Wattles' original 17 chapters in full, providing a clear, practical, and transformative blueprint for building lasting financial abundance."
+  },
+  "contributors": [
+    {
+      "name": "Wallace D. Wattles",
+      "role": "Author",
+      "bio": "Wallace Delois Wattles (1860–1911) was an American New Thought writer. His most famous work, 'The Science of Getting Rich' (1910), remains one of the most influential personal finance and success guidebooks ever written."
+    },
+    {
+      "name": "TKPROF LLC",
+      "role": "Publisher",
+      "bio": "TKPROF LLC is a premier publishing imprint dedicated to restoring, producing, and distributing classic literary works and timeless masterworks in high-fidelity digital and audiobook formats."
+    },
+    {
+      "name": "TKPROF LLC",
+      "role": "Narrator",
+      "narrator_type": "Synthesized voice",
+      "bio": "TKPROF LLC utilizes state-of-the-art AI voice synthesis technology paired with immersive audio engineering to deliver clear, articulate, and engaging audiobook performances."
+    }
+  ],
+  "content_files": {
+    "cover_image_path": "C:\\git_repo\\TKprof_book\\books\\science_of_getting_rich\\cover_en_2400.jpg",
+    "cover_exists": true,
+    "audio_dir": "C:\\git_repo\\TKprof_book\\books\\science_of_getting_rich\\final_audio",
+    "audio_track_count": 21,
+    "audio_files": [
+      "C:\\git_repo\\TKprof_book\\books\\science_of_getting_rich\\final_audio\\00_opening_credits.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\science_of_getting_rich\\final_audio\\01_chapter_01.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\science_of_getting_rich\\final_audio\\02_chapter_02.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\science_of_getting_rich\\final_audio\\03_chapter_03.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\science_of_getting_rich\\final_audio\\04_chapter_04.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\science_of_getting_rich\\final_audio\\05_chapter_05.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\science_of_getting_rich\\final_audio\\06_chapter_06.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\science_of_getting_rich\\final_audio\\07_chapter_07.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\science_of_getting_rich\\final_audio\\08_chapter_08.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\science_of_getting_rich\\final_audio\\09_chapter_09.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\science_of_getting_rich\\final_audio\\10_chapter_10.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\science_of_getting_rich\\final_audio\\11_chapter_11.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\science_of_getting_rich\\final_audio\\12_chapter_12.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\science_of_getting_rich\\final_audio\\13_chapter_13.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\science_of_getting_rich\\final_audio\\14_chapter_14.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\science_of_getting_rich\\final_audio\\15_chapter_15.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\science_of_getting_rich\\final_audio\\16_chapter_16.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\science_of_getting_rich\\final_audio\\17_chapter_17.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\science_of_getting_rich\\final_audio\\18_chapter_18.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\science_of_getting_rich\\final_audio\\19_closing_credits.mp3"
+    ]
+  },
+  "pricing": {
+    "digital_price_usd": "9.99",
+    "currency": "USD"
+  }
+}

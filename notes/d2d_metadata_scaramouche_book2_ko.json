@@ -1,0 +1,70 @@
+{
+  "book_id": "scaramouche_book2",
+  "language_code": "ko",
+  "language_name": "Korean",
+  "step1_metadata": {
+    "title": "스카라무슈 2: 배우의 신발 (Scaramouche)",
+    "subtitle": "무대 위의 배우에서 혁명의 정점으로",
+    "author": "라파엘 사바티니",
+    "publisher": "TKPROF LLC",
+    "explicit_content": false,
+    "search_terms": [
+      "스카라무슈",
+      "Scaramouche",
+      "라파엘사바티니",
+      "프랑스혁명",
+      "역사모험소설",
+      "고전소설",
+      "활극"
+    ],
+    "bisac_categories": [
+      "Fiction / Action & Adventure",
+      "Fiction / Historical / General",
+      "Fiction / Classics"
+    ],
+    "cover_image_path": "C:\\git_repo\\TKprof_book\\books\\scaramouche\\cover_book2_ko.jpg",
+    "cover_exists": true
+  },
+  "step2_details": {
+    "epub_path": "C:\\git_repo\\TKprof_book\\books\\scaramouche\\scaramouche_book2_ko.epub",
+    "epub_exists": true,
+    "short_description": "라파엘 사바티니(Rafael Sabatini)의 세계적인 거장 역사 모험 소설 <스카라무슈> 제2부: 반장화 (The Buskin) 편입니다. 당국의 수배를 피해 유랑 극단에 몸을 숨긴 앙드레 루이 모로. 그는 가면 극단의 광대 '스카라무슈'로 변신하여 날카로운 풍자와 해학으로 귀족과 세상을 조롱하며 민중의 폭발적인 사랑을 받게 됩니다. 무대 위의 광대에서 민중의 영웅으로 성장하는 역동적인 전개가 펼쳐집니다.",
+    "full_description_text": "라파엘 사바티니(Rafael Sabatini)의 세계적인 거장 역사 모험 소설 <스카라무슈> 제2부: 반장화 (The Buskin) 편입니다. 당국의 수배를 피해 유랑 극단에 몸을 숨긴 앙드레 루이 모로. 그는 가면 극단의 광대 '스카라무슈'로 변신하여 날카로운 풍자와 해학으로 귀족과 세상을 조롱하며 민중의 폭발적인 사랑을 받게 됩니다. 무대 위의 광대에서 민중의 영웅으로 성장하는 역동적인 전개가 펼쳐집니다.",
+    "contributors": [
+      {
+        "name": "TKPROF LLC",
+        "role": "Translator"
+      },
+      {
+        "name": "TKPROF LLC",
+        "role": "Editor"
+      }
+    ],
+    "use_free_d2d_isbn": true
+  },
+  "step3_pricing": {
+    "digital_price_usd": "3.99",
+    "library_price_usd": "9.99",
+    "remember_store_preferences": true,
+    "promotion_price_mode": "normal",
+    "target_stores": {
+      "enable_all_supported": true,
+      "skip_unsupported_language_stores": true,
+      "custom_store_states": {
+        "Barnes & Noble": false,
+        "Kobo": true,
+        "Apple": true,
+        "Tolino": true,
+        "Vivlio": true,
+        "Smashwords": true,
+        "Gardners": false,
+        "Bookshop.org": true,
+        "Fable": true,
+        "Everand": true,
+        "OverDrive": true,
+        "cloudLibrary": true,
+        "BorrowBox": true
+      }
+    }
+  }
+}

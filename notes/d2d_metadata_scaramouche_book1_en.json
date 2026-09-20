@@ -1,0 +1,68 @@
+{
+  "book_id": "scaramouche_book1",
+  "language_code": "en",
+  "language_name": "English",
+  "step1_metadata": {
+    "title": "Scaramouche: Book 1 - The Robe",
+    "subtitle": "Modern English Edition",
+    "author": "Rafael Sabatini",
+    "publisher": "TKPROF LLC",
+    "explicit_content": false,
+    "search_terms": [
+      "scaramouche",
+      "rafael sabatini",
+      "french revolution",
+      "swashbuckler",
+      "classic literature"
+    ],
+    "bisac_categories": [
+      "Fiction / Action & Adventure",
+      "Fiction / Historical / General",
+      "Fiction / Classics"
+    ],
+    "cover_image_path": "C:\\git_repo\\TKprof_book\\books\\scaramouche\\cover_en.jpg",
+    "cover_exists": true
+  },
+  "step2_details": {
+    "epub_path": "C:\\git_repo\\TKprof_book\\books\\scaramouche\\scaramouche_book1_en.epub",
+    "epub_exists": true,
+    "short_description": "Set against the turbulent backdrop of the French Revolution, *Scaramouche* tells the unforgettable tale of Andre-Louis Moreau, a young lawyer whose life is upended when his closest friend is murdered in a duel by the ruthless aristocrat Marquis de La Tour d'Azyr. Swearing vengeance, Andre-Louis flees into hiding and joins a troupe of itinerant commedia dell'arte actors, adopting the cunn",
+    "full_description_text": "# Scaramouche: Book 1 - The Robe\nBy Rafael Sabatini\n\nSet against the turbulent backdrop of the French Revolution, *Scaramouche* tells the unforgettable tale of Andre-Louis Moreau, a young lawyer whose life is upended when his closest friend is murdered in a duel by the ruthless aristocrat Marquis de La Tour d'Azyr. \n\nSwearing vengeance, Andre-Louis flees into hiding and joins a troupe of itinerant commedia dell'arte actors, adopting the cunning stage persona of Scaramouche. As the fires of revolution ignite across Paris, his quest for justice leads him from the theatrical stage to the floor of the National Assembly, and finally to a deadly duel of honor.\n\nFeaturing sharp wit, soaring romance, political intrigue, and masterly swashbuckling swordplay, *Book 1: The Robe* marks the dramatic opening volume of Rafael Sabatini's masterpiece of historical fiction.",
+    "contributors": [
+      {
+        "name": "TKPROF LLC",
+        "role": "Translator"
+      },
+      {
+        "name": "TKPROF LLC",
+        "role": "Editor"
+      }
+    ],
+    "use_free_d2d_isbn": true
+  },
+  "step3_pricing": {
+    "digital_price_usd": "3.99",
+    "library_price_usd": "9.99",
+    "remember_store_preferences": true,
+    "promotion_price_mode": "normal",
+    "target_stores": {
+      "enable_all_supported": true,
+      "skip_unsupported_language_stores": true,
+      "custom_store_states": {
+        "Barnes & Noble": false,
+        "Kobo": true,
+        "Apple": true,
+        "Tolino": true,
+        "Vivlio": true,
+        "Smashwords": true,
+        "Gardners": false,
+        "Bookshop.org": true,
+        "Fable": true,
+        "Everand": true,
+        "OverDrive": true,
+        "cloudLibrary": true,
+        "BorrowBox": true
+      }
+    }
+  }
+}

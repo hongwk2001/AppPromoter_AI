@@ -1,0 +1,29 @@
+{
+  "book": "gilgamesh",
+  "language": "English",
+  "language_code": "en",
+  "title": "The Epic of Gilgamesh",
+  "subtitle": "Modern English Edition",
+  "author": "Anonymous",
+  "publisher": "TKPROF LLC",
+  "explicit_content": false,
+  "content_rating_text": "My book does NOT contain content inappropriate for minors. It is intended for a general audience.",
+  "description": "★ The Oldest Story in Human History Reborn into a Modern Fantasy Epic ★\n\nOver 4,000 years ago in ancient Mesopotamia, the legend of King Gilgamesh was carved onto clay tablets. Today, humanity's first epic hero returns in a fast-paced, modern fantasy narrative optimized for contemporary readers and listening flow.\n\n■ ABOUT THIS EDITION\n- Modernized Narrative Flow: Replaces archaic tablet fragments and rigid poetic repetition with clear, vivid prose while preserving the epic scale and profound themes of the original Mesopotamian text.\n- High-Impact Storytelling: Follows Gilgamesh's journey from an unstoppable, tyrannical king of Uruk to a humbled seeker of eternal life.\n- Legendary Encounters: Experience the epic bonds of brotherhood with Enkidu, the fearsome battle against the forest demon Humbaba, the wrath of the Bull of Heaven, and the ancient tale of the Great Flood told by the immortal Utnapishtim.\n\n■ SYNOPSIS\nGilgamesh, two-thirds god and one-third man, rules Uruk with an iron fist. Unmatched in strength, he knows no equal—until the gods forge Enkidu, a wild man born of the wilderness. What begins as a brutal clash of titans blossoms into the greatest friendship in ancient mythology. But when tragedy strikes, Gilgamesh is forced to face his own mortality, embarking on a perilous quest to the ends of the earth to uncover the secret of eternal life.\n\nIdeal for fans of mythology, classic literature, epic fantasy, and world history!",
+  "categories": [
+    "Fiction / Classics",
+    "Poetry / Ancient & Classical",
+    "Fiction / Epic"
+  ],
+  "keywords": [
+    "epic of gilgamesh",
+    "mesopotamia",
+    "ancient literature",
+    "mythology"
+  ],
+  "epub_path": "C:\\git_repo\\TKprof_book\\books\\gilgamesh\\gilgamesh_en.epub",
+  "cover_path": "C:\\git_repo\\TKprof_book\\books\\gilgamesh\\images\\cover.jpg",
+  "files_exist": {
+    "epub": true,
+    "cover": true
+  }
+}

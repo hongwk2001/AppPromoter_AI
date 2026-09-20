@@ -8,6 +8,7 @@ STOPS immediately after filling for user review — does NOT click Save, Next, o
 import os
 import sys
 import json
+import time
 import argparse
 from playwright.sync_api import sync_playwright
 
@@ -55,109 +56,63 @@ def fill_tab1_about_the_book(book_name, lang="ko", port=9222):
         page = pages[0] if pages else browser.contexts[0].pages[0]
         print(f"Active Tab: {page.url} ({page.title()})")
 
-        js_fill_tab1 = """
-        (data) => {
-            const filled = [];
+        # 1. Fill Title (mat-input-1 or formfield with Title label)
+        title_val = tab1.get("title", "")
+        title_inp = page.locator('#mat-input-1, mat-form-field:has-text("Title") input').first
+        if title_inp.count() > 0:
+            title_inp.click()
+            title_inp.fill(title_val)
+            print(f"  ✓ Title set to: {title_val}")
 
-            function setVal(input, val) {
-                if (!input || val === undefined || val === null) return false;
-                input.focus();
-                input.value = val;
-                input.dispatchEvent(new Event('input', { bubbles: true }));
-                input.dispatchEvent(new Event('change', { bubbles: true }));
-                input.dispatchEvent(new Event('blur', { bubbles: true }));
-                return true;
-            }
+        # 2. Fill Subtitle
+        sub_val = tab1.get("subtitle", "")
+        if sub_val:
+            sub_inp = page.locator('#mat-input-10, input[placeholder*="Subtitle" i], mat-form-field:has-text("Subtitle") input').first
+            if sub_inp.count() == 0 or not sub_inp.is_visible():
+                add_sub_btn = page.locator('button:has-text("Subtitle"), [role="button"]:has-text("Subtitle")')
+                if add_sub_btn.count() > 0:
+                    add_sub_btn.first.click()
+                    time.sleep(1)
+            sub_inp = page.locator('#mat-input-10, input[placeholder*="Subtitle" i], mat-form-field:has-text("Subtitle") input').first
+            if sub_inp.count() > 0:
+                sub_inp.click()
+                sub_inp.fill(sub_val)
+                print(f"  ✓ Subtitle set to: {sub_val}")
 
-            function findInputByContext(labelTxt) {
-                const inputs = Array.from(document.querySelectorAll('input, textarea'));
-                for (const i of inputs) {
-                    let p = i;
-                    let ctx = '';
-                    for (let level = 0; level < 6; level++) {
-                        if (p.parentElement) {
-                            p = p.parentElement;
-                            ctx += ' ' + p.innerText;
-                        }
-                    }
-                    if (ctx.toLowerCase().includes(labelTxt.toLowerCase())) {
-                        return i;
-                    }
-                }
-                return null;
-            }
+        # 3. Fill Description (Quill Editor)
+        desc_div = page.locator('div.ql-editor, div[contenteditable="true"], div[role="textbox"]').first
+        if desc_div.count() > 0:
+            desc_div.click()
+            page.evaluate("(html) => { const el = document.querySelector('div.ql-editor, div[contenteditable=\"true\"], div[role=\"textbox\"]'); if(el) { el.innerHTML = html; el.dispatchEvent(new Event('input', {bubbles:true})); } }", desc_html)
+            print("  ✓ Description formatted & set")
 
-            // 1. Title (Must be set first to enable Add a Subtitle button)
-            const inputs = Array.from(document.querySelectorAll('input'));
-            const titleInp = inputs.find(i => {
-                const p = i.closest('mat-form-field') || i.parentElement;
-                const txt = (p ? p.innerText : '').toLowerCase();
-                return txt.includes('title') && !txt.includes('subtitle');
-            }) || inputs[0];
+        # 4. Fill Language (mat-input-3)
+        lang_val = "Korean" if lang == "ko" else "English"
+        lang_inp = page.locator('#mat-input-3, mat-form-field:has-text("Language") input').first
+        if lang_inp.count() > 0:
+            lang_inp.click()
+            lang_inp.fill(lang_val)
+            time.sleep(1)
+            opt = page.locator(f'mat-option:has-text("{lang_val}"), [role="option"]:has-text("{lang_val}")').first
+            if opt.count() > 0:
+                opt.click()
+                print(f"  ✓ Language selected from dropdown: {lang_val}")
 
-            if (setVal(titleInp, data.title)) filled.push('Title');
+        # 5. Fill Publisher (mat-input-4)
+        pub_val = tab1.get("publisher", "TKPROF LLC")
+        pub_inp = page.locator('#mat-input-4, input[placeholder="Name"]').first
+        if pub_inp.count() > 0:
+            pub_inp.click()
+            pub_inp.fill(pub_val)
+            print(f"  ✓ Publisher set to: {pub_val}")
 
-            // 2. Subtitle (Enabled after title is entered)
-            if (data.subtitle) {
-                let subInp = findInputByContext('subtitle') || document.querySelector('input[placeholder*="Subtitle" i]');
-                if (!subInp) {
-                    const subBtn = Array.from(document.querySelectorAll('button, [role="button"], a, span')).find(b => b.innerText && b.innerText.toLowerCase().includes('subtitle'));
-                    if (subBtn && !subBtn.disabled && subBtn.getAttribute('aria-disabled') !== 'true') {
-                        subBtn.click();
-                    }
-                    subInp = findInputByContext('subtitle') || document.querySelector('input[placeholder*="Subtitle" i]');
-                }
-                if (setVal(subInp, data.subtitle)) filled.push('Subtitle');
-            }
-
-            // 3. Description (Quill Editor)
-            const descDiv = document.querySelector('div.ql-editor, div[contenteditable="true"], div[role="textbox"]');
-            if (descDiv) {
-                descDiv.focus();
-                descDiv.innerHTML = data.desc_html || ('<p>' + (data.description_text || '') + '</p>');
-                descDiv.dispatchEvent(new Event('input', { bubbles: true }));
-                descDiv.dispatchEvent(new Event('change', { bubbles: true }));
-                descDiv.dispatchEvent(new Event('blur', { bubbles: true }));
-                filled.push('Description');
-            }
-
-            // 4. Language
-            const langInp = findInputByContext('language') || document.querySelector('#mat-input-3');
-            if (setVal(langInp, data.language || 'Korean')) filled.push('Language');
-
-            // 5. Publisher
-            if (data.publisher) {
-                const pubInp = findInputByContext('publisher') || document.querySelector('input[placeholder="Name"]');
-                if (setVal(pubInp, data.publisher)) filled.push('Publisher');
-            }
-
-            // 6. Page Count
-            if (data.page_count) {
-                const pageInp = findInputByContext('page count');
-                if (setVal(pageInp, data.page_count)) filled.push('Page count');
-            }
-
-            if (document.activeElement) {
-                document.activeElement.blur();
-            }
-
-            return filled;
-        }
-        """
-
-        payload = {
-            "title": tab1.get("title", ""),
-            "subtitle": tab1.get("subtitle", ""),
-            "publisher": tab1.get("publisher", "TKPROF LLC"),
-            "language": tab1.get("language", "Korean"),
-            "page_count": tab1.get("page_count", "411"),
-            "description_text": desc_raw,
-            "desc_html": desc_html
-        }
-
-        filled_fields = page.evaluate(js_fill_tab1, payload)
-        if filled_fields:
-            print(f"  ✓ Populated Tab 1 fields cleanly: {', '.join(filled_fields)}")
+        # 6. Fill Page Count (mat-input-7)
+        page_val = tab1.get("page_count", "320")
+        page_inp = page.locator('#mat-input-7, mat-form-field:has-text("integer") input').first
+        if page_inp.count() > 0:
+            page_inp.click()
+            page_inp.fill(page_val)
+            print(f"  ✓ Page count set to: {page_val}")
 
         print("\n✨ Tab 1 (About the book) Populated! (Browser paused for your review)")
 

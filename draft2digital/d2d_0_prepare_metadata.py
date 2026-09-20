@@ -119,8 +119,8 @@ BOOK_PRESETS = {
         "categories": ["Fiction / Classics", "Fiction / Action & Adventure", "Fiction / Epic"],
         "keywords_ko": ["오디세이아", "Odysseia", "호메로스", "그리스신화", "고전문학", "영웅담", "모험소설"],
         "keywords_en": ["the odyssey", "homer", "classic literature", "greek mythology", "epic poem"],
-        "price_usd": "3.99",
-        "library_price_usd": "9.99"
+        "price_usd": "5.99",
+        "library_price_usd": "11.99"
     },
     "scaramouche_book1": {
         "title_en": "Scaramouche: Book 1 - The Robe",
@@ -178,7 +178,7 @@ BOOK_PRESETS = {
     },
     "dracula_bilingual": {
         "title_en": "Dracula: Bilingual Parallel Edition (English - Korean)",
-        "title_ko": "드라큘라 (Dracula) - 한영 대역판 (Bilingual Edition)",
+        "title_ko": "드라큘라 (Dracula) - 영한 대역판 (Bilingual Edition)",
         "subtitle_en": "Bram Stoker's Gothic Masterpiece (A Line-by-Line Parallel Edition for Language Learners)",
         "subtitle_ko": "브램 스토커의 고딕 공포 거작 (영한 대역 / 영어 학습 / 클래식 호러)",
         "author_en": "Bram Stoker",
@@ -229,8 +229,11 @@ def prepare_unified_metadata(book_name, lang="ko"):
         keywords = preset.get("keywords_en", [])
 
     # Descriptions
+    b_num = b_key.split("_")[-1] if "_" in b_key else ""
     full_description = ""
     desc_files = [
+        os.path.join(book_path, f"overview_{b_key}_{lang}.txt"),
+        os.path.join(book_path, f"overview_{b_num}_{lang}.txt"),
         os.path.join(book_path, f"overview_{lang}.txt"),
         os.path.join(book_path, f"introduction_{lang}.txt"),
         os.path.join(book_path, f"copyright_{lang}.txt"),
@@ -273,6 +276,10 @@ def prepare_unified_metadata(book_name, lang="ko"):
 
     cover_path = ""
     cover_candidates = [
+        os.path.join(book_path, f"cover_{b_num}_{lang}.jpg"),
+        os.path.join(book_path, f"cover_{b_num}_final.jpg"),
+        os.path.join(book_path, f"cover_{b_num}.jpg"),
+        os.path.join(book_path, f"cover_{b_num}.png"),
         os.path.join(book_path, f"cover_{lang}.jpg"),
         os.path.join(book_path, f"cover_{lang}.png"),
         os.path.join(book_path, "cover.jpg"),

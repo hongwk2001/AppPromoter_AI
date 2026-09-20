@@ -22,8 +22,8 @@
       "Fiction / Action & Adventure",
       "Fiction / Epic"
     ],
-    "cover_image_path": "",
-    "cover_exists": false
+    "cover_image_path": "C:\\git_repo\\TKprof_book\\books\\odyssey\\cover_ko.jpg",
+    "cover_exists": true
   },
   "step2_details": {
     "epub_path": "C:\\git_repo\\TKprof_book\\books\\odyssey\\odyssey_ko.epub",
@@ -43,8 +43,8 @@
     "use_free_d2d_isbn": true
   },
   "step3_pricing": {
-    "digital_price_usd": "3.99",
-    "library_price_usd": "9.99",
+    "digital_price_usd": "5.99",
+    "library_price_usd": "11.99",
     "remember_store_preferences": true,
     "promotion_price_mode": "normal",
     "target_stores": {

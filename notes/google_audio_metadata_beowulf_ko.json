@@ -1,0 +1,93 @@
+{
+  "book_id": "beowulf",
+  "format": "AUDIOBOOK",
+  "language_code": "ko",
+  "language_name": "Korean",
+  "book_info": {
+    "title": "베오울프: 스펙터클 현대 한국어판 (오디오북)",
+    "subtitle": "현대어 한국어 오디오북",
+    "author": "작자 미상",
+    "narrator": "TKPROF LLC",
+    "publisher": "TKPROF LLC",
+    "duration": "03:05:04",
+    "duration_seconds": 11104.51,
+    "categories": [
+      "FICTION / Classics",
+      "FICTION / Action & Adventure"
+    ],
+    "description": "★ 영문학 최고의 고전 서사시, 압도적 몰입감의 현대 웹소설 스타일로 재탄생! ★\n\n괴물 그렌델의 피비린내 나는 습격, 핏빛 늪속 수중 굴에서의 사투, 그리고 화염을 뿜어내는 마지막 거룡과의 멸망전!\n800년 역사를 가진 인류 위대한 고전 《베오울프》가 현대 판타지 웹소설의 스펙터클한 문법과 속도감 넘치는 현대 한국어로 새롭게 찾아왔습니다.\n\n■ 작품 특징\n- 속도감 넘치는 웹소설 스타일: 지루하고 딱딱한 고어 직역을 벗어나, 액션과 긴장감이 살아 숨쉬는 현대적 문체 적용.\n- 웅장한 전설의 완성: 헤오로트 대연회장의 비극부터 영웅의 마지막 용 사냥까지 숨막히는 서사를 한 권에 담았습니다.\n- 고품질 일러스트 탑재: 괴물 그렌델, 물마녀, 거룡과의 전투 장면을 담은 고해상도 일러스트레이션 수록.\n\n■ 줄거리\n6세기 스칸디나비아, 덴마크 왕국의 대연회장 헤오로트는 매일 밤 괴물 그렌델의 잔혹한 학살로 피로 물든다.\n절망에 빠진 왕국을 구하기 위해 바다를 건너온 게아트족의 영웅 베오울프.\n맨손으로 괴물의 팔을 뽑아버린 첫 승리 뒤에는 더 끔찍한 그렌델의 어미와 사나운 화룡과의 사투가 그를 기다리고 있는데...\n\n판타지 로판, 무협, 웹소설을 즐기는 현대 독자라면 반드시 읽어야 할 고전 영웅 서사의 원점!"
+  },
+  "contributors": [
+    {
+      "name": "작자 미상",
+      "role": "Author",
+      "bio": "《베오울프》(Beowulf)는 8세기~11세기경 고대 영어로 작성된 영문학 최선두의 고대 서사시로, 작자는 미상이나 인류 문학사에서 영웅 서사시의 원형으로 평가받습니다."
+    },
+    {
+      "name": "TKPROF LLC",
+      "role": "Narrator",
+      "bio": "TKPROF LLC는 고전 문학의 현대화 및 오디오북 퍼블리싱 전문 팀입니다. 본 오디오북 개정판은 고대 영문학 대서사시 《베오울프》 원작을 현대 한국어 독자와 오디오북 청취 환경에 맞춰 정교하게 편역 및 낭독 제작했습니다: 1) 번역 방식: 딱딱하고 장황한 고어 직역을 벗어나 현대 웹소설의 스펙터클한 문법과 속도감 넘치는 현대 구어체로 완판 재번역했습니다. 2) 낭독 및 음성 연출: 성우 및 AI 내레이션 기술을 조합하여 장면별 서사적 긴장감, 전투 몰입감, 문장 호흡을 오디오 청취에 최적화하여 연출했습니다. 3) 생략 없는 완판 서사 구조를 보존하여 오디오북 청취자에게 최고의 몰입감을 제공합니다."
+    }
+  ],
+  "content_files": {
+    "cover_image_path": "C:\\git_repo\\TKprof_book\\books\\beowulf\\cover_ko.jpg",
+    "cover_exists": true,
+    "audio_dir": "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko",
+    "audio_track_count": 49,
+    "audio_files": [
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\opening_credits.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_00_intro.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_00.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_01.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_02.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_03.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_04.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_05.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_06.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_07.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_08.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_09.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_10.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_11.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_12.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_13.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_14.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_15.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_16.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_17.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_18.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_19.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_20.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_21.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_22.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_23.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_24.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_25.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_26.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_27.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_28.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_29.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_30.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_31.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_32.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_33.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_34.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_35.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_36.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_37.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_38.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_39.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_40.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_41.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_42.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\final_track_43.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\closing.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\closing_credits.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio_ko\\sample.mp3"
+    ]
+  },
+  "pricing": {
+    "digital_price_usd": "9.99",
+    "currency": "USD"
+  }
+}

@@ -22,14 +22,14 @@
       "Fiction / Historical / General",
       "Fiction / Classics"
     ],
-    "cover_image_path": "C:\\git_repo\\TKprof_book\\books\\scaramouche\\cover_ko.jpg",
+    "cover_image_path": "C:\\git_repo\\TKprof_book\\books\\scaramouche\\cover_book1_ko.jpg",
     "cover_exists": true
   },
   "step2_details": {
     "epub_path": "C:\\git_repo\\TKprof_book\\books\\scaramouche\\scaramouche_book1_ko.epub",
     "epub_exists": true,
-    "short_description": "",
-    "full_description_text": "",
+    "short_description": "라파엘 사바티니(Rafael Sabatini)의 세계적인 거장 역사 모험 소설 <스카라무슈> 제1부: 법복 (The Robe) 편입니다. 18세기 프랑스 혁명 직전, 차가운 이성과 비범한 기지를 지닌 법학도 앙드레 루이 모로. 절친한 친구 필립 드 빌모랭이 오만한 귀족 라 투르 다르지르 후작의 검에 무참히 살해당하자, 앙드레 루이는 세상을 향한 복수와 정의를 맹세하며 혁명의 불길 속으로 뛰어듭니다.",
+    "full_description_text": "라파엘 사바티니(Rafael Sabatini)의 세계적인 거장 역사 모험 소설 <스카라무슈> 제1부: 법복 (The Robe) 편입니다. 18세기 프랑스 혁명 직전, 차가운 이성과 비범한 기지를 지닌 법학도 앙드레 루이 모로. 절친한 친구 필립 드 빌모랭이 오만한 귀족 라 투르 다르지르 후작의 검에 무참히 살해당하자, 앙드레 루이는 세상을 향한 복수와 정의를 맹세하며 혁명의 불길 속으로 뛰어듭니다.",
     "contributors": [
       {
         "name": "TKPROF LLC",

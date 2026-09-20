@@ -5,7 +5,7 @@
   "tab1_about_the_book": {
     "title": "오디세이아 (Odysseia)",
     "subtitle": "현대인을 위한 모험 서사 판타지",
-    "book_identifier": "GGKEY:8RSLG7CBZBC",
+    "book_identifier": "",
     "language": "Korean",
     "publisher": "TKPROF LLC",
     "format": "Ebook",
@@ -27,7 +27,7 @@
     {
       "name": "호메로스",
       "role": "Author",
-      "bio": "호머(호메로스, Homeros)는 고대 그리스의 대표적인 대서사시인으로, 인류 문학사에서 가장 위대한 서사시로 꼽히는 《일리아스》와 《오디세이아》의 작가입니다. 그의 영웅적 서사와 깊이 있는 인물 묘사는 서양 문학과 철학, 신화적 상상력의 영원한 원천이 되었습니다."
+      "bio": "호머(호메로스, Homeros)는 고대 그리스의 대표적인 대서사시인으로, 인류 문학사에서 가장 위대한 서사시로 꼽히는 《일리아스》와 《오디세이아》의 작가입니다."
     },
     {
       "name": "TKPROF LLC",

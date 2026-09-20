@@ -1,0 +1,68 @@
+{
+  "book_id": "scaramouche_book3",
+  "language_code": "en",
+  "language_name": "English",
+  "step1_metadata": {
+    "title": "Scaramouche: Book 3 - The Sword",
+    "subtitle": "Modern English Edition",
+    "author": "Rafael Sabatini",
+    "publisher": "TKPROF LLC",
+    "explicit_content": false,
+    "search_terms": [
+      "scaramouche",
+      "rafael sabatini",
+      "french revolution",
+      "swashbuckler",
+      "classic literature"
+    ],
+    "bisac_categories": [
+      "Fiction / Action & Adventure",
+      "Fiction / Historical / General",
+      "Fiction / Classics"
+    ],
+    "cover_image_path": "C:\\git_repo\\TKprof_book\\books\\scaramouche\\cover_en.jpg",
+    "cover_exists": true
+  },
+  "step2_details": {
+    "epub_path": "C:\\git_repo\\TKprof_book\\books\\scaramouche\\scaramouche_book3_en.epub",
+    "epub_exists": true,
+    "short_description": "",
+    "full_description_text": "",
+    "contributors": [
+      {
+        "name": "TKPROF LLC",
+        "role": "Translator"
+      },
+      {
+        "name": "TKPROF LLC",
+        "role": "Editor"
+      }
+    ],
+    "use_free_d2d_isbn": true
+  },
+  "step3_pricing": {
+    "digital_price_usd": "3.99",
+    "library_price_usd": "9.99",
+    "remember_store_preferences": true,
+    "promotion_price_mode": "normal",
+    "target_stores": {
+      "enable_all_supported": true,
+      "skip_unsupported_language_stores": true,
+      "custom_store_states": {
+        "Barnes & Noble": false,
+        "Kobo": true,
+        "Apple": true,
+        "Tolino": true,
+        "Vivlio": true,
+        "Smashwords": true,
+        "Gardners": false,
+        "Bookshop.org": true,
+        "Fable": true,
+        "Everand": true,
+        "OverDrive": true,
+        "cloudLibrary": true,
+        "BorrowBox": true
+      }
+    }
+  }
+}

@@ -43,7 +43,8 @@ def fill_step1(book_name, lang="ko", port=9222):
             print(f"Error: Could not connect to Chrome on port {port}: {e}")
             return
 
-        page = [pg for pg in browser.contexts[0].pages if "draft2digital.com" in pg.url][0]
+        pages = [pg for pg in browser.contexts[0].pages if "/book/" in pg.url]
+        page = pages[0] if pages else [pg for pg in browser.contexts[0].pages if "draft2digital.com" in pg.url][0]
         print(f"Active Tab: {page.url} ({page.title()})")
 
         # 1. Fill Title

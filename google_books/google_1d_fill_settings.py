@@ -55,12 +55,16 @@ def fill_settings_tab(book_name, lang="ko", port=9222):
             pages = [pg for pg in browser.contexts[0].pages if "google" in pg.url]
         page = pages[0] if pages else browser.contexts[0].pages[0]
 
+        # Dismiss any open Angular Material overlays (backdrops, dropdowns)
+        page.keyboard.press("Escape")
+        time.sleep(0.5)
+
         # 1. Switch to Settings sub-tab if needed
         if "info/settings" not in page.url:
-            settings_tab = page.locator('a:has-text("Settings"), span:has-text("Settings"), div[role="tab"]:has-text("Settings")')
+            settings_tab = page.locator('a[href*="info/settings"], a[mat-tab-link][href*="settings"]')
             if settings_tab.count() > 0:
                 print("➡️ Clicking 'Settings' sub-tab...")
-                settings_tab.first.click()
+                settings_tab.first.click(force=True)
                 time.sleep(2)
 
         print(f"Active Page: {page.url} ({page.title()})")

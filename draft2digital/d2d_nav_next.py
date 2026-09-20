@@ -20,7 +20,8 @@ def navigate_next(port=9222):
             print(f"Error: Could not connect to Chrome on port {port}: {e}")
             return
 
-        page = [pg for pg in browser.contexts[0].pages if "draft2digital.com" in pg.url][0]
+        pages = [pg for pg in browser.contexts[0].pages if "/book/" in pg.url]
+        page = pages[0] if pages else [pg for pg in browser.contexts[0].pages if "draft2digital.com" in pg.url][0]
         print(f"\n Current Page: {page.url} ({page.title()})")
 
         # 1. Handle Layout page
@@ -35,6 +36,13 @@ def navigate_next(port=9222):
         # 2. Handle Preview page
         elif "/preview" in page.url:
             print("  Navigating through Preview step...")
+            toggle = page.locator("#id_layout_approved, div.toggle")
+            if toggle.count() > 0:
+                try:
+                    toggle.first.click()
+                    time.sleep(1)
+                except Exception:
+                    pass
             js_check_all = """
             () => {
                 const inputs = Array.from(document.querySelectorAll('input[type="checkbox"], input[type="radio"]'));
@@ -50,7 +58,7 @@ def navigate_next(port=9222):
             if save_btn.count() > 0:
                 print("  Waiting for Preview submit button to become enabled...")
                 try:
-                    page.wait_for_selector(".submit-button:not([disabled]), #save-and-continue:not([disabled])", timeout=120000)
+                    page.wait_for_selector(".submit-button:not([disabled]), #save-and-continue:not([disabled])", timeout=10000)
                 except Exception:
                     pass
                 page.evaluate(js_check_all)
@@ -58,10 +66,20 @@ def navigate_next(port=9222):
                 print("  ✓ Clicked Save & Continue on Preview step!")
                 time.sleep(5)
 
-        # 3. Standard Step 1 or Step 2 page
+        # 3. Publish page check (SAFETY GUARD)
+        elif "/publish" in page.url:
+            print("  🛑 SAFETY STOP: Final Publish page reached (/publish).")
+            print("     Auto-publishing is disabled per user request. Please review the page and click 'Publish My Book' manually.")
+            return
+
+        # 4. Standard Step 1 or Step 2 page
         else:
             save_btn = page.locator("#start-ebook-button, #save-and-continue, button:has-text('SAVE & CONTINUE'), a:has-text('SAVE & CONTINUE'), .btn:has-text('SAVE & CONTINUE')")
             if save_btn.count() > 0:
+                btn_text = save_btn.first.inner_text().strip().lower()
+                if "publish" in btn_text:
+                    print("  🛑 SAFETY STOP: Detected Publish button. Auto-click disabled per user request.")
+                    return
                 print("  Waiting for Save & Continue button to be enabled...")
                 try:
                     page.wait_for_selector("#save-and-continue:not([disabled]), #start-ebook-button:not([disabled])", timeout=120000)
@@ -73,8 +91,8 @@ def navigate_next(port=9222):
             else:
                 print("  ⚠️ Save & Continue button not found on this page.")
 
-        # Display resulting URL
-        page = [pg for pg in browser.contexts[0].pages if "draft2digital.com" in pg.url][0]
+        pages = [pg for pg in browser.contexts[0].pages if "/book/" in pg.url]
+        page = pages[0] if pages else [pg for pg in browser.contexts[0].pages if "draft2digital.com" in pg.url][0]
         print(f"\n➡️ New Page URL: {page.url} ({page.title()})")
 
 if __name__ == "__main__":

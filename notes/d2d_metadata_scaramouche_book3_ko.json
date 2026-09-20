@@ -1,0 +1,70 @@
+{
+  "book_id": "scaramouche_book3",
+  "language_code": "ko",
+  "language_name": "Korean",
+  "step1_metadata": {
+    "title": "스카라무슈 3: 검의 언어 (Scaramouche)",
+    "subtitle": "장엄한 운명의 결투와 마침내 밝혀지는 진실",
+    "author": "라파엘 사바티니",
+    "publisher": "TKPROF LLC",
+    "explicit_content": false,
+    "search_terms": [
+      "스카라무슈",
+      "Scaramouche",
+      "라파엘사바티니",
+      "프랑스혁명",
+      "역사모험소설",
+      "고전소설",
+      "활극"
+    ],
+    "bisac_categories": [
+      "Fiction / Action & Adventure",
+      "Fiction / Historical / General",
+      "Fiction / Classics"
+    ],
+    "cover_image_path": "C:\\git_repo\\TKprof_book\\books\\scaramouche\\cover_book3_ko.jpg",
+    "cover_exists": true
+  },
+  "step2_details": {
+    "epub_path": "C:\\git_repo\\TKprof_book\\books\\scaramouche\\scaramouche_book3_ko.epub",
+    "epub_exists": true,
+    "short_description": "라파엘 사바티니(Rafael Sabatini)의 세계적인 거장 역사 모험 소설 <스카라무슈> 제3부: 검의 언어 (The Sword) 완결편입니다. 프랑스 혁명 파리의 혼란 속에서 펜싱 스승으로 이름을 날리는 앙드레 루이 모로. 마침내 펜싱 사범으로서 원수 라투르 두아지르 백작과의 마지막 숙명적 결투에 임하게 됩니다. 서슬 퍼런 검 끝 위에서 밝혀지는 충격적인 혈연의 진실과 장엄한 대단원의 막!",
+    "full_description_text": "라파엘 사바티니(Rafael Sabatini)의 세계적인 거장 역사 모험 소설 <스카라무슈> 제3부: 검의 언어 (The Sword) 완결편입니다. 프랑스 혁명 파리의 혼란 속에서 펜싱 스승으로 이름을 날리는 앙드레 루이 모로. 마침내 펜싱 사범으로서 원수 라투르 두아지르 백작과의 마지막 숙명적 결투에 임하게 됩니다. 서슬 퍼런 검 끝 위에서 밝혀지는 충격적인 혈연의 진실과 장엄한 대단원의 막!",
+    "contributors": [
+      {
+        "name": "TKPROF LLC",
+        "role": "Translator"
+      },
+      {
+        "name": "TKPROF LLC",
+        "role": "Editor"
+      }
+    ],
+    "use_free_d2d_isbn": true
+  },
+  "step3_pricing": {
+    "digital_price_usd": "3.99",
+    "library_price_usd": "9.99",
+    "remember_store_preferences": true,
+    "promotion_price_mode": "normal",
+    "target_stores": {
+      "enable_all_supported": true,
+      "skip_unsupported_language_stores": true,
+      "custom_store_states": {
+        "Barnes & Noble": false,
+        "Kobo": true,
+        "Apple": true,
+        "Tolino": true,
+        "Vivlio": true,
+        "Smashwords": true,
+        "Gardners": false,
+        "Bookshop.org": true,
+        "Fable": true,
+        "Everand": true,
+        "OverDrive": true,
+        "cloudLibrary": true,
+        "BorrowBox": true
+      }
+    }
+  }
+}

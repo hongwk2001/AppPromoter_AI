@@ -1,0 +1,80 @@
+{
+  "book_id": "dracula",
+  "format": "AUDIOBOOK",
+  "language_code": "ko",
+  "language_name": "Korean",
+  "book_info": {
+    "title": "드라큘라 (Dracula) - 영한 대역판 오디오북",
+    "subtitle": "문장별 영한 대역 리스닝 & 영어 학습 오디오북",
+    "author": "브람 스토커",
+    "narrator": "Aiden (English), SunHi (Korean)",
+    "publisher": "TKPROF LLC",
+    "duration": "34:40:32",
+    "duration_seconds": 124832.6,
+    "categories": [
+      "FICTION / Classics",
+      "FOREIGN LANGUAGE STUDY / Korean",
+      "FICTION / Horror"
+    ],
+    "description": "🎧 브람 스토커의 고딕 공포 명작 <드라큘라>를 영어-한국어 이중 언어(영한 대역) 오디오북으로 만나보세요!\n\n본 오디오북은 1897년 원작 <드라큘라>를 원문에 충실하게 현대적인 표법으로 다듬어, 한 문장(또는 문단)의 원어민 영어 낭독 후 바로 자연스러운 한국어 번역 낭독이 이어지는 문장별 교차 낭독 방식으로 제작되었습니다.\n\n📌 이런 분들께 강력 추천합니다!\n- 영어 원서 읽기와 리스닝 실력을 자연스럽게 향상시키고 싶은 분\n- 자막이나 번역본 없이 고전 명작을 몰입감 있게 즐기고 싶은 ESL 학습자\n- 한국어와 영어를 동시에 감상하고 싶은 이중언어 독자\n\n낭독: Aiden (English), SunHi (Korean)\n출판: TKPROF LLC"
+  },
+  "contributors": [
+    {
+      "name": "브람 스토커",
+      "role": "Author",
+      "bio": ""
+    },
+    {
+      "name": "Aiden (English), SunHi (Korean)",
+      "role": "Narrator",
+      "bio": ""
+    }
+  ],
+  "content_files": {
+    "cover_image_path": "C:\\git_repo\\TKprof_book\\books\\dracula\\cover_2400x2400.jpg",
+    "cover_exists": true,
+    "audio_dir": "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio",
+    "audio_track_count": 35,
+    "audio_files": [
+      "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio\\opening_credits.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio\\dracula_00_intro_bilingual_sunhi.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio\\dracula_sample_bilingual_sunhi.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio\\dracula_ch_01_bilingual_sunhi.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio\\dracula_ch_02_bilingual_sunhi.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio\\dracula_ch_03_bilingual_sunhi.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio\\dracula_ch_04_bilingual_sunhi.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio\\dracula_ch_05_bilingual_sunhi.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio\\dracula_ch_06_bilingual_sunhi.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio\\dracula_ch_07_bilingual_sunhi.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio\\dracula_ch_08_bilingual_sunhi.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio\\dracula_ch_09_bilingual_sunhi.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio\\dracula_ch_10_bilingual_sunhi.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio\\dracula_ch_11_bilingual_sunhi.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio\\dracula_ch_12_bilingual_sunhi.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio\\dracula_ch_13a_bilingual_sunhi.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio\\dracula_ch_13b_bilingual_sunhi.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio\\dracula_ch_14_bilingual_sunhi.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio\\dracula_ch_15_bilingual_sunhi.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio\\dracula_ch_16_bilingual_sunhi.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio\\dracula_ch_17_bilingual_sunhi.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio\\dracula_ch_18_bilingual_sunhi.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio\\dracula_ch_19_bilingual_sunhi.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio\\dracula_ch_20_bilingual_sunhi.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio\\dracula_ch_21_bilingual_sunhi.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio\\dracula_ch_22_bilingual_sunhi.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio\\dracula_ch_23_bilingual_sunhi.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio\\dracula_ch_24_bilingual_sunhi.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio\\dracula_ch_25_bilingual_sunhi.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio\\dracula_ch_26a_bilingual_sunhi.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio\\dracula_ch_26b_bilingual_sunhi.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio\\dracula_ch_27a_bilingual_sunhi.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio\\dracula_ch_27b_bilingual_sunhi.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio\\dracula_99_closing_bilingual_sunhi.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio\\closing_credits.mp3"
+    ]
+  },
+  "pricing": {
+    "digital_price_usd": "14.99",
+    "currency": "USD"
+  }
+}

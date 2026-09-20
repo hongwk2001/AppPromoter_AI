@@ -1,0 +1,422 @@
+{
+  "tabs": [
+    {
+      "text": "Get Started",
+      "class": "w-20 text-center",
+      "id": "",
+      "active": false
+    },
+    {
+      "text": "Metadata",
+      "class": "w-20 text-center",
+      "id": "",
+      "active": false
+    },
+    {
+      "text": "Audio & Cover Art",
+      "class": "w-20 text-center",
+      "id": "",
+      "active": false
+    },
+    {
+      "text": "Agreement",
+      "class": "w-20 text-center",
+      "id": "",
+      "active": false
+    }
+  ],
+  "form_controls": [
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "",
+      "id": "AppUserSRID",
+      "placeholder": "",
+      "value": "dl_60675",
+      "label": "",
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "__RequestVerificationToken",
+      "id": "",
+      "placeholder": "",
+      "value": "CfDJ8Ev1lCKqjl5Fg87rEcl2n7-4vC2LQTt8WY7FnK14m9DOnj",
+      "label": "",
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "",
+      "id": "ViewProjectID",
+      "placeholder": "",
+      "value": "0",
+      "label": "",
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "Project.Id",
+      "id": "Project_Id",
+      "placeholder": "",
+      "value": "0",
+      "label": "",
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "Project.ProjectName",
+      "id": "Project_ProjectName",
+      "placeholder": "Your audiobook title",
+      "value": "",
+      "label": "Title *",
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "Project.SubTitle",
+      "id": "Project_SubTitle",
+      "placeholder": "Add a subtitle if applicable",
+      "value": "",
+      "label": "Subtitle (Optional)",
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "ProjectMeta.DigitalNarration",
+      "id": "AiYes",
+      "placeholder": "",
+      "value": "1",
+      "label": "",
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "ProjectMeta.DigitalNarration",
+      "id": "AiNo",
+      "placeholder": "",
+      "value": "0",
+      "label": "",
+      "text": ""
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": "",
+      "id": "aiEngineSelect",
+      "placeholder": "",
+      "value": "",
+      "label": "",
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "ProjectMeta.AiEngine",
+      "id": "aiEngineOtherInput",
+      "placeholder": "",
+      "value": "",
+      "label": "",
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "Project.ProjectMeta.DigitalNarration",
+      "id": "Project_ProjectMeta_DigitalNarration",
+      "placeholder": "",
+      "value": "0",
+      "label": "",
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "SeriesRdo",
+      "id": "SeriesYes",
+      "placeholder": "",
+      "value": "1",
+      "label": "",
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "SeriesRdo",
+      "id": "SeriesNo",
+      "placeholder": "",
+      "value": "2",
+      "label": "",
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "Project.Series",
+      "id": "Project_Series",
+      "placeholder": "Series name",
+      "value": "",
+      "label": "Series Name *",
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "Project.SeriesNumber",
+      "id": "Project_SeriesNumber",
+      "placeholder": "Number in Series",
+      "value": "",
+      "label": "Number in Series",
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "PubRdo",
+      "id": "PubYes",
+      "placeholder": "",
+      "value": "1",
+      "label": "",
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "PubRdo",
+      "id": "PubNo",
+      "placeholder": "",
+      "value": "2",
+      "label": "",
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "Project.Publisher",
+      "id": "Project_Publisher",
+      "placeholder": "Publisher name",
+      "value": "Independently Published",
+      "label": "Publisher",
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "Project.ProjectMeta.Abridged",
+      "id": "Project_ProjectMeta_Abridged",
+      "placeholder": "",
+      "value": "false",
+      "label": "",
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "type": "submit",
+      "name": "",
+      "id": "SaveContinue",
+      "placeholder": "",
+      "value": "Save & Continue",
+      "label": "",
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "__RequestVerificationToken",
+      "id": "",
+      "placeholder": "",
+      "value": "CfDJ8Ev1lCKqjl5Fg87rEcl2n7-4vC2LQTt8WY7FnK14m9DOnj",
+      "label": "",
+      "text": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "placeholder": "",
+      "value": "",
+      "label": "",
+      "text": "Close"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "StopAllBtn",
+      "placeholder": "",
+      "value": "",
+      "label": "",
+      "text": "Cancel All"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "placeholder": "",
+      "value": "",
+      "label": "",
+      "text": "Close"
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "",
+      "id": "ContributorType",
+      "placeholder": "",
+      "value": "1",
+      "label": "",
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "",
+      "id": "ContributorFirstName",
+      "placeholder": "",
+      "value": "",
+      "label": "First Name * (includes Prefix and Middle Name)  \n                                \n                                “AI Voice” will automatically be added as a prefix to the narrator name after you click Add.",
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "",
+      "id": "ContributorLastName",
+      "placeholder": "",
+      "value": "",
+      "label": "Last Name (includes Suffix)",
+      "text": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "AddContributor",
+      "placeholder": "",
+      "value": "",
+      "label": "",
+      "text": "Add"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "placeholder": "",
+      "value": "",
+      "label": "",
+      "text": "Close"
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "AudioId",
+      "id": "DelAudioID",
+      "placeholder": "",
+      "value": "0",
+      "label": "",
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "DeleteAll",
+      "id": "DelAudioAll",
+      "placeholder": "",
+      "value": "false",
+      "label": "",
+      "text": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "DeleteAllAudioBtn",
+      "placeholder": "",
+      "value": "",
+      "label": "",
+      "text": "Delete Audio"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "placeholder": "",
+      "value": "",
+      "label": "",
+      "text": "Cancel"
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "__RequestVerificationToken",
+      "id": "",
+      "placeholder": "",
+      "value": "CfDJ8Ev1lCKqjl5Fg87rEcl2n7-4vC2LQTt8WY7FnK14m9DOnj",
+      "label": "",
+      "text": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "placeholder": "",
+      "value": "",
+      "label": "",
+      "text": "×"
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": "helpTopic",
+      "id": "ContactHelpTopic",
+      "placeholder": "",
+      "value": "",
+      "label": "",
+      "text": ""
+    },
+    {
+      "tag": "textarea",
+      "type": "textarea",
+      "name": "helpMessage",
+      "id": "HelpMessage",
+      "placeholder": "",
+      "value": "",
+      "label": "",
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "__RequestVerificationToken",
+      "id": "",
+      "placeholder": "",
+      "value": "CfDJ8Ev1lCKqjl5Fg87rEcl2n7-4vC2LQTt8WY7FnK14m9DOnj",
+      "label": "",
+      "text": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "placeholder": "",
+      "value": "",
+      "label": "",
+      "text": "Close"
+    }
+  ],
+  "url": "https://www.authorsrepublic.com/the-republic/projects/publish-a-book",
+  "title": "New Audiobook - Distribution | Author’s Republic"
+}

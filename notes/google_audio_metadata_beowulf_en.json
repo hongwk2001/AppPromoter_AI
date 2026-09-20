@@ -1,0 +1,90 @@
+{
+  "book_id": "beowulf",
+  "format": "AUDIOBOOK",
+  "language_code": "en",
+  "language_name": "English",
+  "book_info": {
+    "title": "Beowulf: Spectacular Modern English Edition (Audiobook)",
+    "subtitle": "Modern English Edition Audiobook",
+    "author": "Anonymous",
+    "narrator": "TKPROF LLC",
+    "publisher": "TKPROF LLC",
+    "duration": "02:03:57",
+    "duration_seconds": 7437.04,
+    "categories": [
+      "FICTION / Classics",
+      "FICTION / Action & Adventure"
+    ],
+    "description": "Introduction to Beowulf\n\nWelcome to one of the most important and foundational works of English literature. *Beowulf* is an epic poem composed in Old English, consisting of 3,182 alliterative lines. While the exact date of its composition is fiercely debated by scholars—estimates range from the 8th to the early 11th century—it stands as one of the oldest surviving long poems in Old English. \n\nThe story was originally passed down orally by \"scops\" (bards or poets) who would recite the epic in the mead-halls of Anglo-Saxon England. It was eventually written down by Christian monks, resulting in a fascinating blend of pagan Germanic heroic values—such as the pursuit of glory, vengeance, and the inescapable nature of fate (\"wyrd\")—intertwined with Christian moral commentary and references to the Almighty.\n\n**The Miracle of Survival**\nThe survival of *Beowulf* into the modern era is nothing short of a miracle. The poem exists in a single, fragile manuscript known as the Nowell Codex (officially Cotton MS Vitellius A XV), which dates to around the year 1000 AD. For centuries, the manuscript lay largely forgotten in various private libraries. In 1731, disaster struck when a fire broke out at Ashburnham House in London, where the manuscript was being housed. The edges of the *Beowulf* manuscript were scorched, and the brittle pages slowly began to crumble away over the years. Thankfully, two transcriptions were made in the late 18th century before the damage worsened, preserving the text for future generations.\n\n**The Tale**\nThe epic is set in Scandinavia in the 6th century and follows the heroic exploits of Beowulf, a champion of the Geatish people (from modern-day Sweden). The story unfolds in three major acts. In the first, the young and boastful Beowulf travels to Denmark to aid King Hrothgar, whose magnificent mead-hall, Heorot, is being terrorized by a demonic monster named Grendel. In the second act, Beowulf must dive into a terrifying, monster-infested mere to face an even deadlier foe: Grendel's vengeful mother. Finally, the story leaps forward fifty years. Beowulf, now the wise and aging King of the Geats, must face his ultimate test when a fiery dragon awakens to ravage his kingdom.\n\n**About This Edition**\nTraditionally, *Beowulf* is translated and presented in verse form, maintaining the original's complex alliteration and rhythmic structure. While poetic translations capture the musicality of the original Old English, they can sometimes be challenging for modern readers to navigate. \n\nThis edition takes a different approach. We have adapted the epic poem into a modern, fast-paced prose narrative. By presenting *Beowulf* as a novel-like story—complete with standard paragraphs and modernized vocabulary—we aim to make this incredible adventure accessible to a wider audience, including middle-school readers, ESL learners, and audiobook listeners. \n\nWe invite you to step back into the Dark Ages, a time of legendary heroes, bloody feuds, and monsters lurking in the shadows. Enter the mead-hall, take your seat at the bench, and listen to the tale of Beowulf."
+  },
+  "contributors": [
+    {
+      "name": "Anonymous",
+      "role": "Author",
+      "bio": "《베오울프》(Beowulf)는 8세기~11세기경 고대 영어로 작성된 영문학 최선두의 고대 서사시로, 작자는 미상이나 인류 문학사에서 영웅 서사시의 원형으로 평가받습니다."
+    },
+    {
+      "name": "TKPROF LLC",
+      "role": "Narrator",
+      "bio": "TKPROF LLC는 고전 문학의 현대화 및 오디오북 퍼블리싱 전문 팀입니다. 본 오디오북 개정판은 고대 영문학 대서사시 《베오울프》 원작을 현대 한국어 독자와 오디오북 청취 환경에 맞춰 정교하게 편역 및 낭독 제작했습니다: 1) 번역 방식: 딱딱하고 장황한 고어 직역을 벗어나 현대 웹소설의 스펙터클한 문법과 속도감 넘치는 현대 구어체로 완판 재번역했습니다. 2) 낭독 및 음성 연출: 성우 및 AI 내레이션 기술을 조합하여 장면별 서사적 긴장감, 전투 몰입감, 문장 호흡을 오디오 청취에 최적화하여 연출했습니다. 3) 생략 없는 완판 서사 구조를 보존하여 오디오북 청취자에게 최고의 몰입감을 제공합니다."
+    }
+  ],
+  "content_files": {
+    "cover_image_path": "C:\\git_repo\\TKprof_book\\books\\beowulf\\beowulf_cover_en.jpg",
+    "cover_exists": true,
+    "audio_dir": "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio",
+    "audio_track_count": 46,
+    "audio_files": [
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_00_intro.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_00.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_01.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_02.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_03.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_04.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_05.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_06.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_07.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_08.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_09.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_10.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_11.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_12.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_13.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_14.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_15.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_16.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_17.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_18.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_19.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_20.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_21.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_22.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_23.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_24.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_25.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_26.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_27.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_28.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_29.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_30.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_31.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_32.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_33.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_34.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_35.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_36.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_37.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_38.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_39.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_40.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_41.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_42.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\final_track_43.mp3",
+      "C:\\git_repo\\TKprof_book\\books\\beowulf\\final_audio\\closing.mp3"
+    ]
+  },
+  "pricing": {
+    "digital_price_usd": "9.99",
+    "currency": "USD"
+  }
+}

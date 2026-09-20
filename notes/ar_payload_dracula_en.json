@@ -1,0 +1,71 @@
+{
+  "book_id": "dracula",
+  "language_code": "en",
+  "language_name": "English",
+  "title": "Dracula",
+  "subtitle": "Bram Stoker's Gothic Classic",
+  "author_first": "Bram",
+  "author_last": "Stoker",
+  "narrators": [
+    [
+      "Fable",
+      "AI"
+    ],
+    [
+      "Bella",
+      "AI"
+    ]
+  ],
+  "narrator_first": "Fable",
+  "narrator_last": "AI",
+  "is_ai_voice": true,
+  "ai_engine": "Kokoro-82M",
+  "is_ai_text": false,
+  "is_series": false,
+  "series_name": "",
+  "series_number": "",
+  "has_publisher": true,
+  "publisher": "TKPROF LLC",
+  "description": "Bram Stoker's 1897 masterpiece of Gothic horror, presented in full.\n\nTold through the journals, letters and diaries of those who hunted him, Dracula follows solicitor Jonathan Harker from a remote Transylvanian castle to the streets of London, where Mina Harker, Dr. John Seward and Professor Van Helsing race to stop a predator who has crossed the sea to find them.\n\nThis unabridged recording uses two narrators, one voice for the men's journals and one for the women's letters, so the novel's overlapping accounts stay clear as the chorus of testimony Stoker intended.",
+  "categories": [
+    "FICTION / Classics",
+    "FICTION / Horror",
+    "FICTION / Gothic"
+  ],
+  "keywords": "Dracula, Bram Stoker, gothic horror, vampire, classic literature, Van Helsing, audiobook",
+  "price_usd": "14.99",
+  "cover_path": "C:\\git_repo\\TKprof_book\\books\\dracula\\cover_en_2400_v2.jpg",
+  "audio_dir": "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio_en_v2",
+  "opening_track": "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio_en_v2\\opening_credits.mp3",
+  "closing_track": "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio_en_v2\\closing_credits.mp3",
+  "sample_track": "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio_en_v2\\dracula_retail_sample.mp3",
+  "audio_tracks": [
+    "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio_en_v2\\dracula_ch_01_en.mp3",
+    "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio_en_v2\\dracula_ch_02_en.mp3",
+    "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio_en_v2\\dracula_ch_03_en.mp3",
+    "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio_en_v2\\dracula_ch_04_en.mp3",
+    "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio_en_v2\\dracula_ch_05_en.mp3",
+    "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio_en_v2\\dracula_ch_06_en.mp3",
+    "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio_en_v2\\dracula_ch_07_en.mp3",
+    "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio_en_v2\\dracula_ch_08_en.mp3",
+    "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio_en_v2\\dracula_ch_09_en.mp3",
+    "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio_en_v2\\dracula_ch_10_en.mp3",
+    "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio_en_v2\\dracula_ch_11_en.mp3",
+    "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio_en_v2\\dracula_ch_12_en.mp3",
+    "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio_en_v2\\dracula_ch_13_en.mp3",
+    "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio_en_v2\\dracula_ch_14_en.mp3",
+    "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio_en_v2\\dracula_ch_15_en.mp3",
+    "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio_en_v2\\dracula_ch_16_en.mp3",
+    "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio_en_v2\\dracula_ch_17_en.mp3",
+    "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio_en_v2\\dracula_ch_18_en.mp3",
+    "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio_en_v2\\dracula_ch_19_en.mp3",
+    "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio_en_v2\\dracula_ch_20_en.mp3",
+    "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio_en_v2\\dracula_ch_21_en.mp3",
+    "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio_en_v2\\dracula_ch_22_en.mp3",
+    "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio_en_v2\\dracula_ch_23_en.mp3",
+    "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio_en_v2\\dracula_ch_24_en.mp3",
+    "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio_en_v2\\dracula_ch_25_en.mp3",
+    "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio_en_v2\\dracula_ch_26_en.mp3",
+    "C:\\git_repo\\TKprof_book\\books\\dracula\\final_audio_en_v2\\dracula_ch_27_en.mp3"
+  ]
+}
