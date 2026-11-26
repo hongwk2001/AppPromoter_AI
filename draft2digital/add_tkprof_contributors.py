@@ -2,6 +2,7 @@
 add_tkprof_contributors.py
 Expands Non-Author Contributors and adds TKPROF LLC as Translator and Editor into D2D Step 2.
 """
+import _pd_reminder  # noqa: F401  -- D2D public-domain warning; see CLAUDE.md
 
 import os
 import sys

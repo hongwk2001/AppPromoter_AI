@@ -2,6 +2,7 @@
 add_clean_contributors.py
 Safely populates both TKPROF LLC (Translator) and TKPROF LLC (Editor) without clicking any page submit buttons.
 """
+import _pd_reminder  # noqa: F401  -- D2D public-domain warning; see CLAUDE.md
 
 import os
 import sys

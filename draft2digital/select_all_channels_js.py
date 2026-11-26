@@ -2,6 +2,7 @@
 select_all_channels_js.py
 Instantly checks ALL supported digital stores, library services, and subscription channels on Draft2Digital Step 3.
 """
+import _pd_reminder  # noqa: F401  -- D2D public-domain warning; see CLAUDE.md
 
 import os
 import sys

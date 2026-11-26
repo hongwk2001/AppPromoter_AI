@@ -2,6 +2,7 @@
 handle_layout_and_preview.py
 Navigates through D2D layout and preview steps to arrive at Step 3 (Rights & Pricing).
 """
+import _pd_reminder  # noqa: F401  -- D2D public-domain warning; see CLAUDE.md
 
 import os
 import sys

@@ -2,6 +2,7 @@
 fix_step2_korean_and_epub.py
 Populates clean Korean descriptions and uploads manuscript EPUB for Tono-Bungay on D2D Step 2.
 """
+import _pd_reminder  # noqa: F401  -- D2D public-domain warning; see CLAUDE.md
 
 import os
 import sys

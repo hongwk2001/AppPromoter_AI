@@ -2,6 +2,7 @@
 click_save_and_continue.py
 Clicks Save & Continue on Draft2Digital Step 2 to proceed to the next step (Pricing & Rights).
 """
+import _pd_reminder  # noqa: F401  -- D2D public-domain warning; see CLAUDE.md
 
 import os
 import sys

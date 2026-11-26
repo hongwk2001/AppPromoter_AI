@@ -3,6 +3,7 @@ click_final_publish.py
 SAFETY MODE ENFORCED: Auto-publishing is explicitly DISABLED.
 This script will inspect form elements but WILL NOT click the final Publish button.
 """
+import _pd_reminder  # noqa: F401  -- D2D public-domain warning; see CLAUDE.md
 
 import sys
 import json

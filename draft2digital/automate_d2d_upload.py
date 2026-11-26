@@ -4,6 +4,7 @@ Connects to an open Chrome session on http://127.0.0.1:9222,
 populates the Draft2Digital book entry form with metadata (Title, Author, Publisher, Language, Search Terms with Enter key, BISAC Categories, Content Rating)
 and attaches cover image (#upload-front-cover) and manuscript file.
 """
+import _pd_reminder  # noqa: F401  -- D2D public-domain warning; see CLAUDE.md
 
 import os
 import sys

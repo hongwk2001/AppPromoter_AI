@@ -2,6 +2,7 @@
 update_ckeditor_korean.py
 Updates the CKEditor 5 Ebook Description box on D2D Step 2 with clean Korean text.
 """
+import _pd_reminder  # noqa: F401  -- D2D public-domain warning; see CLAUDE.md
 
 import os
 import sys

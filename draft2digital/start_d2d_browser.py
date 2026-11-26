@@ -3,6 +3,7 @@ start_d2d_browser.py
 Launches Google Chrome on CDP port 9222 for Draft2Digital.
 Delegates to universal start_browser.py launcher.
 """
+import _pd_reminder  # noqa: F401  -- D2D public-domain warning; see CLAUDE.md
 
 import os
 import sys

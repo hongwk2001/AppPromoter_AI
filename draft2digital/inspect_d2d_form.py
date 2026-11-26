@@ -4,6 +4,7 @@ Connects to an open Chrome instance on http://localhost:9222,
 inspects all form fields on the active Draft2Digital page,
 and saves the captured field selectors to a JSON file.
 """
+import _pd_reminder  # noqa: F401  -- D2D public-domain warning; see CLAUDE.md
 
 import os
 import sys

@@ -2,6 +2,7 @@
 capture_d2d_screenshot.py
 Captures a screenshot of the active Draft2Digital browser tab and saves it to the artifacts directory.
 """
+import _pd_reminder  # noqa: F401  -- D2D public-domain warning; see CLAUDE.md
 
 import os
 import sys

@@ -4,6 +4,7 @@ Explicit Navigation Utility.
 Clicks "Save & Continue" or approves layout/preview steps on Draft2Digital.
 Only run when you have reviewed the page in your browser and want to proceed to the next step.
 """
+import _pd_reminder  # noqa: F401  -- D2D public-domain warning; see CLAUDE.md
 
 import sys
 import time

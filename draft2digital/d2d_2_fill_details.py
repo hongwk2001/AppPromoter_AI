@@ -4,6 +4,7 @@ Populates Step 2 (Ebook Details, Manuscript EPUB, Descriptions, Contributors, IS
 on active Draft2Digital page over CDP port 9222.
 STOPS immediately after filling for user review — does NOT click Save & Continue or move to next page.
 """
+import _pd_reminder  # noqa: F401  -- D2D public-domain warning; see CLAUDE.md
 
 import os
 import sys

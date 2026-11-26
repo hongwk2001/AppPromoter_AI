@@ -4,6 +4,7 @@ Populates Step 3 (Digital Price, Library Price, Channel Toggles, Preferences)
 on active Draft2Digital page over CDP port 9222.
 STOPS immediately after filling for user review — does NOT click Publish or move to next page.
 """
+import _pd_reminder  # noqa: F401  -- D2D public-domain warning; see CLAUDE.md
 
 import os
 import sys

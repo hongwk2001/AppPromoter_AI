@@ -3,6 +3,7 @@ d2d_0_prepare_metadata.py
 Generates a single, unified metadata JSON payload per book containing all fields
 for Step 1 (Metadata), Step 2 (Details), and Step 3 (Pricing & Rights).
 """
+import _pd_reminder  # noqa: F401  -- D2D public-domain warning; see CLAUDE.md
 
 import os
 import sys

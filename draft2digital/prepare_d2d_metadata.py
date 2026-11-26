@@ -3,6 +3,7 @@ prepare_d2d_metadata.py
 Prepares and formats structured JSON metadata and absolute file paths
 for a specified book and language edition for Draft2Digital automated publishing.
 """
+import _pd_reminder  # noqa: F401  -- D2D public-domain warning; see CLAUDE.md
 
 import os
 import sys

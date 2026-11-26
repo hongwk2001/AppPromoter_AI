@@ -2,6 +2,7 @@
 launch_visible_d2d.py
 Launches a persistent visible Chromium browser window on your desktop.
 """
+import _pd_reminder  # noqa: F401  -- D2D public-domain warning; see CLAUDE.md
 
 import os
 import sys

@@ -4,6 +4,7 @@ Automates Draft2Digital Step 3 (Pricing & Rights):
 Populates Digital Book Price (USD), Library Price (USD),
 and automatically checks ALL supported distribution channels (Kobo, Apple, Tolino, Vivlio, Smashwords, OverDrive, etc.).
 """
+import _pd_reminder  # noqa: F401  -- D2D public-domain warning; see CLAUDE.md
 
 import os
 import sys

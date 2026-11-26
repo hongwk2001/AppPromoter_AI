@@ -3,6 +3,7 @@ upload_scaramouche_series.py
 Automates metadata generation and autofill for Scaramouche Books 1, 2, and 3.
 SAFETY GUARANTEED: Stops before submitting the final publish button.
 """
+import _pd_reminder  # noqa: F401  -- D2D public-domain warning; see CLAUDE.md
 
 import os
 import sys

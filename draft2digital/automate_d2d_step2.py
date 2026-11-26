@@ -4,6 +4,7 @@ Automates Draft2Digital Step 2 (Ebook Details):
 Uploads manuscript EPUB (#ebook-upload-content), populates Short Description & Full Description,
 adds Non-Author Contributors (TKPROF LLC as Translator & Editor), and selects Free D2D ISBN.
 """
+import _pd_reminder  # noqa: F401  -- D2D public-domain warning; see CLAUDE.md
 
 import os
 import sys
